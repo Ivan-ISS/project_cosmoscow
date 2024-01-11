@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 1113",
+    "build": "npx sass ./src/styles/styles.scss build/index.css",
+    "build:watch": "npx sass ./src/styles/styles.scss build/index.css --watch",
+    "prefix": "npx autoprefixer build/index.css -o build/index-prefix.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ivan-ISS/project_cosmoscow.git"
   },
   "author": "Ivan-ISS",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "http-server": "^14.1.1",
+    "sass": "^1.69.7"
+  }
 }

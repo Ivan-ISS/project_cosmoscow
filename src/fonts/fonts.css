@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Helvetica World";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Montserrat"),
+             url("HelveticaWorld-Regular.woff2") format("woff2"),
+             url("HelveticaWorld-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Helvetica World";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Montserrat"),
+             url("HelveticaWorld-Italic.woff2") format("woff2"),
+             url("HelveticaWorld-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Albina";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Montserrat"),
+             url("Albina.woff2") format("woff2"),
+             url("Albina.woff") format("woff");
+}
