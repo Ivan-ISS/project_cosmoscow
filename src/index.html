@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="../build/index.css">
-    <link rel="stylesheet" href="../build/tablet.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/tablet.css">
+    <link rel="stylesheet" href="../css/mobile.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,8 +26,56 @@
                         </li>
                     </ul>
                 </nav>
+                <button class="header__btn-burger" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </header>
+        <main class="page">
+            <section class="page__price-tag price-tag">
+                <div class="price-tag__container container-common">
+                    <div class="price-tag__body">
+                        <h1 class="price-tag__title title">
+                            Миссия выполнима: продать ценник
+                        </h1>
+                        <p class="price-tag__text price-tag__text_screen_desktop">
+                            В одном из корнеров Cosmoscow 2023 посетители находили ценник. Центральный и единственный предмет экспозиции — 
+                            стеклянный куб со счетчиком, показывающий общий объем рынка современного искусства в России за последний год. 
+                            Он призывал посчитать цену современного искусства в России и найти решение для прозрачности рынка.
+                        </p>
+                        <p class="price-tag__text price-tag__text_screen_mobile">
+                            На Cosmoscow 2023 был стеклянный куб со счетчиком, показывающим объем рынка современного искусства в России за последний год. 
+                            Посетители могли подумать о прозрачности рынка и цене современного искусства в стране.
+                        </p>
+                        <div class="price-tag__price">
+                            <img class="price-tag__image-price" src="./images/png/price-tag.png" alt="image-price-tag">
+                        </div>
+                    </div>
+                    <div class="price-tag__wrap-img">
+                        <div class="price-tag__dash-top">
+                            <img class="price-tag__image-dash-top" src="./images/png/dash-top.png" alt="image-dash-top">
+                        </div>
+                        <div class="price-tag__dash-bot">
+                            <img class="price-tag__image-dash-bot" src="./images/png/dash-bot.png" alt="image-dash-bot">
+                        </div>
+                        <div class="price-tag__charisma">
+                            <img class="price-tag__image-charisma" src="./images/png/charisma.png" alt="image-charisma">
+                        </div>
+                        <span class="price-tag__signature">
+                            Redkeds charisma
+                        </span>
+                    </div>
+                </div>
+                <div class="price-tag__background">
+                    
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            Подвал
+        </footer>
     </div>
 </body>
 </html>

@@ -24,6 +24,6 @@
     font-weight: 400;
     font-display: swap;
     src: local("Montserrat"),
-             url("Albina.woff2") format("woff2"),
-             url("Albina.woff") format("woff");
+             url("Albina-Regular.woff2") format("woff2"),
+             url("Albina-Regular.woff") format("woff");
 }

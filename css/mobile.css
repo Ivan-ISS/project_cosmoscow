@@ -1,0 +1,81 @@
+@media (max-width: 767px) {
+  .container-common {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .header__container {
+    padding-left: 28px;
+  }
+  /* .navigation__link {
+      white-space: nowrap;
+  }
+
+    .navigation__list {
+      flex-wrap: wrap;
+      row-gap: 10px;
+  } */
+  .header__navigation {
+    display: none;
+  }
+  .header__btn-burger {
+    display: flex;
+  }
+  /* price-tag---------------------------------------------------------------------------------- */
+  .price-tag {
+    background: linear-gradient(to top, #000000 61.5%, #ffffff 38.5%);
+  }
+  .price-tag__container {
+    background: transparent;
+  }
+  .price-tag__body {
+    max-width: 350px;
+    padding: 12px 0 0 0;
+    background: linear-gradient(to right, #000000 230px, #ffffff 90px);
+  }
+  .price-tag__title {
+    max-width: 230px;
+    font-size: 32px;
+    padding-bottom: 117px;
+    margin-bottom: 0;
+  }
+  .price-tag__text {
+    max-width: 320px;
+    font-size: 14px;
+    margin-top: 168px;
+    margin-bottom: 0;
+  }
+  .price-tag__text_screen_desktop {
+    display: none;
+  }
+  .price-tag__text_screen_mobile {
+    display: block;
+  }
+  .price-tag__image-price {
+    margin-top: -36px;
+    margin-bottom: -107px;
+    margin-left: 27px;
+    max-width: 320px;
+  }
+  .price-tag__dash-top {
+    position: absolute;
+    top: -25px;
+    left: -15px;
+  }
+  .price-tag__dash-bot {
+    display: none;
+  }
+  .price-tag__charisma {
+    margin-top: 82px;
+    margin-right: 0px;
+    margin-left: -327px;
+  }
+  .price-tag__image-charisma {
+    max-width: 355px;
+    transform: rotate(-41deg);
+  }
+  .price-tag__signature {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

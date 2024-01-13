@@ -1,2 +1,4 @@
 node_modules
-index.css.map
+styles.css.map
+tablet.css.map
+mobile.css.map

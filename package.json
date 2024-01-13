@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -p 1113",
-    "build": "npx sass ./src/styles/styles.scss build/index.css",
-    "build:watch": "npx sass ./src/styles/styles.scss build/index.css --watch",
-    "prefix": "npx autoprefixer build/index.css -o build/index-prefix.css"
+    "compile-css": "npx sass ./src/styles/styles.scss css/index.css",
+    "compile-css:watch": "npx sass ./src/styles:css --watch",
+    "prefix": "npx autoprefixer css/styles.css -o css/styles-prefix.css"
   },
   "repository": {
     "type": "git",

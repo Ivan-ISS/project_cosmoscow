@@ -1,4 +1,4 @@
-@import "variables";
+@import "_color";
 
 /* reset------------------------------------------------------------------------------------ */
 
@@ -38,7 +38,8 @@ body {
     font-family: "Helvetica World";
     font-weight: 400;
     font-size: 18px;
-    color: $base-red;
+    line-height: 1.2;
+    color: $base-black;
 }
 
 /* ------------------------------------------------------------------------------------------- */
@@ -46,6 +47,8 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 /* common helper classes---------------------------------------------------------------------- */
@@ -53,6 +56,13 @@ body {
 .container-common {
     max-width: 1160px;
     margin: 0 auto;
+}
+
+/* BEM-blocks--------------------------------------------------------------------------------- */
+
+.title {
+    font-size: 44px;
+    text-transform: uppercase;
 }
 
 /* header------------------------------------------------------------------------------------- */
@@ -63,6 +73,7 @@ body {
     min-height: 100px;
     padding: 0 60px;
     box-sizing: content-box;
+    color: $base-red;
 }
 
 .header__navigation {
@@ -83,6 +94,110 @@ body {
 }
 
 .navigation__link {
-    line-height: calc(22 / 18 * 100%);
     color: inherit;
+}
+
+.header__btn-burger {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background-color: transparent;
+    height: 30px;
+    padding: 8.5px 5.5px;
+    cursor: pointer;
+    display: none;
+
+    span {
+        display: block;
+        width: 16px;
+        border: solid 1.5px $base-red;
+        border-radius: 3px;
+    }
+}
+
+/* main--------------------------------------------------------------------------------------- */
+
+.page {
+    flex: 1 1 auto;
+}
+
+.page__price-tag {
+    // внешние стили для элемента
+}
+
+/* footer------------------------------------------------------------------------------------- */
+
+
+
+/* price-tag---------------------------------------------------------------------------------- */
+
+.price-tag {
+    background: linear-gradient(to right, $base-black 50%, $base-white 50%);
+}
+
+.price-tag__container {
+    display: flex;
+    background: linear-gradient(to right, $base-black 943px, $base-white 217px);
+}
+
+/* .price-tag__background {
+    width: 78%;
+    background: $base-black;
+} */
+
+.price-tag__body {
+    max-width: 460px;
+    padding: 40px 0 7px 0;
+    color: $base-white;
+    /* flex-grow: 1; */
+}
+
+.price-tag__title {
+    margin-bottom: 36px;
+}
+
+.price-tag__text {
+    margin-bottom: 12px;
+}
+
+.price-tag__text_screen_mobile {
+    display: none;
+}
+
+/* .price-tag__image-price {
+    max-width: 390px;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.price-tag__wrap-img {
+    position: relative;
+}
+
+.price-tag__dash-top {
+    position: absolute;
+    top: -25px;
+    left: 111px;
+}
+
+.price-tag__dash-bot {
+    position: absolute;
+    left: 111px;
+    bottom: -43px;
+}
+
+.price-tag__charisma {
+    margin-top: -84px;
+    margin-right: -51px;
+}
+
+.price-tag__image-charisma {
+    transform: rotate(-21.35deg);
+}
+
+.price-tag__signature {
+    padding-left: 240px;
+    color: $base-white;
+    text-transform: uppercase;
+    font-style: italic;
 }
