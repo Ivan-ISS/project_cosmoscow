@@ -35,7 +35,6 @@ h6 {
 html,
 body {
     height: 100%;
-    line-height: 1;
     font-family: "Helvetica World";
     font-weight: 400;
     font-size: $font-size-large;
@@ -64,6 +63,30 @@ body {
 .title {
     font-size: $font-size-title-desktop;
     text-transform: uppercase;
+}
+
+.btn-plus {
+    background: transparent;
+
+    img:nth-of-type(2) {
+        display: none;
+    }
+
+    &:hover {
+    
+        img:nth-of-type(1) {
+            display: none;
+        }
+    
+        img:nth-of-type(2) {
+            display: block;
+        }
+    }
+}
+
+.btn-arrow {
+    background: transparent;
+    cursor: pointer;
 }
 
 /* header------------------------------------------------------------------------------------- */
@@ -122,7 +145,12 @@ body {
 }
 
 .page__price-tag {
+    margin-bottom: 203px;
     // внешние стили для элемента
+}
+
+.page__idea {
+
 }
 
 /* footer------------------------------------------------------------------------------------- */
@@ -189,14 +217,10 @@ body {
     height: 950px;
     margin-top: -213px;
     margin-left: -110px;
-}
 
-.price-tag__charisma-change {
-    display: none;
-}
-
-.price-tag__image-charisma-main {
-    display: block;
+    img:nth-of-type(2) {
+        display: none;
+    }
 }
 
 .price-tag__signature {
@@ -210,10 +234,104 @@ body {
     position: absolute;
     top: 0;
     right: -100px; 
-    background: transparent;
     z-index: 55;
+
+    &:hover ~ .price-tag__charisma {
+            
+        img:nth-of-type(1) {
+            display: none;
+        }
+
+        img:nth-of-type(2) {
+            display: block;
+        }
+    }
 }
 
-.price-tag__btn-minus {
-    display: none;
+/* idea--------------------------------------------------------------------------------------- */
+
+.idea__title {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.idea__body-top {
+    display: flex;
+
+    .idea__text-block {
+        max-width: 500px;
+        position: relative;
+    }
+
+    .idea__text-top {
+        margin-bottom: 19px;
+        font-style: italic;
+        position: relative;
+
+        span {
+            color: $base-white;
+        }
+
+        .idea__text-top-background {
+            position: absolute;
+            left: -8px;
+            bottom: -8px;
+            z-index: -1;
+        }
+    }
+
+    .idea__bashaev {
+        max-width: 500px;
+
+        img {
+            margin-left: -265px;
+        }
+
+        img:nth-of-type(2) {
+            display: none;
+        }
+    }
+
+    .idea__btn {
+        position: absolute;
+        top: 1190px;
+        right: 0;
+
+        &:hover ~ .idea__bashaev {
+            
+            img:nth-of-type(1) {
+                display: none;
+            }
+
+            img:nth-of-type(2) {
+                display: block;
+            }
+        }
+    }
+}
+
+.idea__info-block {
+    padding: 96px 100px 0 200px;
+    position: relative;
+
+    .idea__info-background {
+        position: absolute;
+        top: -85px;
+        left: 38px;
+        z-index: -1;
+    }
+
+    .idea__info-body {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        max-width: 250px;
+        margin-bottom: 334px;
+    }
+
+    .idea__info-unit {
+        font-size: 12px;
+        text-transform: lowercase;
+    }
 }
