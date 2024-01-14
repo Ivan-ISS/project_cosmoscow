@@ -279,6 +279,10 @@ body {
             bottom: -8px;
             z-index: -1;
         }
+
+        .idea__text-top-background_screen_tablet{
+            display: none;
+        }
     }
 
     .idea__bashaev {
@@ -297,6 +301,7 @@ body {
         position: absolute;
         top: 1190px;
         right: 0;
+        z-index: 55;
 
         &:hover ~ .idea__bashaev {
             
@@ -312,7 +317,7 @@ body {
 }
 
 .idea__info-block {
-    padding: 96px 100px 0 200px;
+    padding: 96px 0 0 200px;
     position: relative;
 
     .idea__info-background {
@@ -320,6 +325,10 @@ body {
         top: -85px;
         left: 38px;
         z-index: -1;
+    }
+
+    .idea__info-background_screen_tablet {
+        display: none;
     }
 
     .idea__info-body {

@@ -20,6 +20,13 @@
     font-size: $font-size-title-mobile;
 }
 
+.btn-plus {
+    
+    img {
+        width: $btn-plus-size-mobile;
+    }
+}
+
 /* header------------------------------------------------------------------------------------- */
 
     .header {
@@ -138,10 +145,6 @@
     .price-tag__btn {
         top: 87px;
         right: 155px;
-
-        img {
-            width: 50px;
-        }
     }
 
 }

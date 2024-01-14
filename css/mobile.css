@@ -12,6 +12,9 @@
   .title {
     font-size: 32px;
   }
+  .btn-plus img {
+    width: 50px;
+  }
   /* header------------------------------------------------------------------------------------- */
   .header .header__container {
     /* padding-left: 28px; */
@@ -105,9 +108,6 @@
   .price-tag__btn {
     top: 87px;
     right: 155px;
-  }
-  .price-tag__btn img {
-    width: 50px;
   }
 }
 

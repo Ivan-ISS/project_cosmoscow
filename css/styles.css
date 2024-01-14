@@ -234,6 +234,9 @@ body {
   bottom: -8px;
   z-index: -1;
 }
+.idea__body-top .idea__text-top .idea__text-top-background_screen_tablet {
+  display: none;
+}
 .idea__body-top .idea__bashaev {
   max-width: 500px;
 }
@@ -247,6 +250,7 @@ body {
   position: absolute;
   top: 1190px;
   right: 0;
+  z-index: 55;
 }
 .idea__body-top .idea__btn:hover ~ .idea__bashaev img:nth-of-type(1) {
   display: none;
@@ -256,7 +260,7 @@ body {
 }
 
 .idea__info-block {
-  padding: 96px 100px 0 200px;
+  padding: 96px 0 0 200px;
   position: relative;
 }
 .idea__info-block .idea__info-background {
@@ -264,6 +268,9 @@ body {
   top: -85px;
   left: 38px;
   z-index: -1;
+}
+.idea__info-block .idea__info-background_screen_tablet {
+  display: none;
 }
 .idea__info-block .idea__info-body {
   display: flex;
