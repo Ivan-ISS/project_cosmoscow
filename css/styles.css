@@ -58,6 +58,10 @@ body {
   text-transform: uppercase;
 }
 
+.white-text {
+  color: #ffffff;
+}
+
 .btn-plus {
   background: transparent;
 }
@@ -74,6 +78,10 @@ body {
 .btn-arrow {
   background: transparent;
   cursor: pointer;
+}
+
+.btn-more {
+  display: none;
 }
 
 /* header------------------------------------------------------------------------------------- */
@@ -207,6 +215,12 @@ body {
 }
 
 /* idea--------------------------------------------------------------------------------------- */
+.idea__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .idea__title {
   margin-bottom: 24px;
   display: flex;
@@ -220,21 +234,21 @@ body {
   max-width: 500px;
   position: relative;
 }
-.idea__body-top .idea__text-top {
+.idea__body-top .idea__text-top-desktop {
   margin-bottom: 19px;
   font-style: italic;
   position: relative;
 }
-.idea__body-top .idea__text-top span {
-  color: #ffffff;
-}
-.idea__body-top .idea__text-top .idea__text-top-background {
+.idea__body-top .idea__text-top-desktop .idea__text-top-background-desktop {
   position: absolute;
   left: -8px;
   bottom: -8px;
   z-index: -1;
 }
-.idea__body-top .idea__text-top .idea__text-top-background_screen_tablet {
+.idea__body-top .idea__text-top-desktop .idea__text-top-background-tablet {
+  display: none;
+}
+.idea__body-top .idea__text-top-mobile {
   display: none;
 }
 .idea__body-top .idea__bashaev {
@@ -258,30 +272,88 @@ body {
 .idea__body-top .idea__btn:hover ~ .idea__bashaev img:nth-of-type(2) {
   display: block;
 }
-
-.idea__info-block {
+.idea__body-top .idea__info-block-mobile {
+  display: none;
+}
+.idea__body-top .idea__info-block-desktop {
   padding: 96px 0 0 200px;
   position: relative;
 }
-.idea__info-block .idea__info-background {
+.idea__body-top .idea__info-block-desktop .idea__info-background-desktop {
   position: absolute;
   top: -85px;
   left: 38px;
   z-index: -1;
 }
-.idea__info-block .idea__info-background_screen_tablet {
+.idea__body-top .idea__info-block-desktop .idea__info-background-tablet {
   display: none;
 }
-.idea__info-block .idea__info-body {
+.idea__body-top .idea__info-block-desktop .idea__info-body {
   display: flex;
   flex-direction: column;
   gap: 36px;
   max-width: 250px;
   margin-bottom: 334px;
 }
-.idea__info-block .idea__info-unit {
+.idea__body-top .idea__info-block-desktop .idea__info-unit {
   font-size: 12px;
   text-transform: lowercase;
+}
+.idea__body-top .idea__signature {
+  font-style: italic;
+}
+
+.idea__body-middle {
+  max-width: 560px;
+  font-size: 20px;
+  font-family: Albina;
+}
+.idea__body-middle .idea__text-middle-change {
+  display: none;
+}
+.idea__body-middle .idea__author {
+  font-size: 18px;
+  font-family: "Helvetica World";
+  font-style: italic;
+}
+.idea__body-middle .idea__text-middle {
+  position: relative;
+}
+.idea__body-middle .idea__text-middle:not(:last-of-type) {
+  margin-bottom: 36px;
+}
+.idea__body-middle .idea__text-middle .idea__text-middle-background-desktop2 {
+  position: absolute;
+  top: 124px;
+  right: -38px;
+  z-index: -1;
+}
+.idea__body-middle .idea__text-middle .idea__text-middle-background-desktop3 {
+  position: absolute;
+  top: 147px;
+  left: -15px;
+  z-index: -1;
+}
+.idea__body-middle .idea__text-middle .idea__text-middle-background-desktop4 {
+  position: absolute;
+  left: -14px;
+  bottom: 0;
+  z-index: -1;
+}
+.idea__body-middle .idea__text-middle .idea__text-middle-background-desktop5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.idea__body-middle .idea__text-middle .idea__text-middle-background-tablet3,
+.idea__body-middle .idea__text-middle .idea__text-middle-background-tablet4,
+.idea__body-middle .idea__text-middle .idea__text-middle-background-tablet5,
+.idea__body-middle .idea__text-middle .idea__text-middle-background-mobile2,
+.idea__body-middle .idea__text-middle .idea__text-middle-background-mobile3,
+.idea__body-middle .idea__text-middle .idea__text-middle-background-mobile4,
+.idea__body-middle .idea__text-middle .idea__text-middle-background-mobile5 {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

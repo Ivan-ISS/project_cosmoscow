@@ -143,14 +143,14 @@
             max-width: 340px;
         }
 
-        .idea__text-top {
+        .idea__text-top-desktop {
             margin-bottom: 9px;
 
-            .idea__text-top-background {
+            .idea__text-top-background-desktop {
                 display: none;
             }
 
-            .idea__text-top-background_screen_tablet {
+            .idea__text-top-background-tablet {
                 display: block;
                 position: absolute;
                 left: -7px;
@@ -172,27 +172,80 @@
             top: 1045px;
             right: -175px;
         }
+
+        .idea__info-block-desktop {
+            padding: 44px 0 0 86px;
+            position: relative;
+    
+            .idea__info-background-desktop {
+                display: none;
+            }
+    
+            .idea__info-background-tablet {
+                position: absolute;
+                display: block;
+                top: -75px;
+                left: 62px;
+                z-index: -1;
+            }
+    
+            .idea__info-body {
+                gap: 24px;
+                max-width: 200px;
+                margin-bottom: 139px;
+            }
+        }
     }
 
-    .idea__info-block {
-        padding: 44px 0 0 86px;
-        position: relative;
-
-        .idea__info-background {
-            display: none;
+    .idea__body-middle {
+        max-width: 480px;
+        font-size: 18px;
+    
+        .idea__author {
+            font-size: $font-size-middle;
         }
+    
+        .idea__text-middle {
+            position: relative;
+    
+            &:not(:last-of-type) {
+                margin-bottom: 26px;
+            }
 
-        .idea__info-background_screen_tablet {
-            display: block;
-            top: -75px;
-            left: 62px;
-            z-index: -1;
-        }
+            &:nth-of-type(3) {
+                max-width: 479px;
+            }
+    
+            .idea__text-middle-background-tablet3 {
+                display: block;
+                position: absolute;
+                top: 131px;
+                right: 117px;
+                z-index: -1;
+            }
+    
+            .idea__text-middle-background-tablet4 {
+                display: block;
+                position: absolute;
+                left: -12px;
+                bottom: -5px;
+                z-index: -1;
+            }
+    
+            .idea__text-middle-background-tablet5 {
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: 20px;
+                z-index: -1;
+            }
 
-        .idea__info-body {
-            gap: 24px;
-            max-width: 200px;
-            margin-bottom: 139px;
+            .idea__text-middle-background-desktop2,
+            .idea__text-middle-background-desktop3,
+            .idea__text-middle-background-desktop4,
+            .idea__text-middle-background-desktop5 {
+                display: none;
+            }
         }
     }
 
