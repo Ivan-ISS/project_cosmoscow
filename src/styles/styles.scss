@@ -44,6 +44,10 @@ body {
 
 /* ------------------------------------------------------------------------------------------- */
 
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -89,7 +93,6 @@ body {
 }
 
 .btn-arrow {
-    background: transparent;
     cursor: pointer;
 }
 
