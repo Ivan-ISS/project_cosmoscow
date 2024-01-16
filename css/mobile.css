@@ -26,8 +26,16 @@
     cursor: pointer;
     order: 1;
   }
-  .btn-more p:nth-of-type(2) {
+  .btn-more:nth-of-type(2) {
     display: none;
+  }
+  .btn-more:focus {
+    /* p:nth-of-type(1) { */
+    display: none;
+    /* } */
+  }
+  .btn-more:focus p:nth-of-type(2) {
+    display: block;
   }
   /* header------------------------------------------------------------------------------------- */
   .header .header__container {
@@ -198,7 +206,45 @@
   .idea__body-middle .idea__author {
     font-size: 14px;
   }
+  .idea__body-middle .idea__text-middle-change {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+  }
+  .idea__body-middle .idea__text-middle-change .idea__text-middle-background-mobile-change2 {
+    display: block;
+    position: absolute;
+    top: 44px;
+    right: 45px;
+    z-index: -1;
+  }
+  .idea__body-middle .idea__text-middle-change .idea__text-middle-background-mobile-change3 {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+    z-index: -1;
+  }
+  .idea__body-middle .idea__text-middle-change .idea__text-middle-background-mobile-change4 {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 23px;
+    z-index: -1;
+  }
+  .idea__body-middle .idea__text-middle-change .idea__text-middle-background-mobile-change5 {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    z-index: -1;
+  }
+  .idea__body-middle .idea__btn-more,
+  .idea__body-middle .idea__btn-more-change {
+    margin-top: 8px;
+  }
   .idea__body-middle .idea__text-middle {
+    display: none;
     position: relative;
   }
   .idea__body-middle .idea__text-middle:not(:last-of-type) {
