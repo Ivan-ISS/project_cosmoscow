@@ -27,6 +27,10 @@
     }
 }
 
+.author {
+    font-size: $font-size-small;
+}
+
 .btn-more {
     display: block;
     background: transparent;
@@ -262,16 +266,15 @@
             display: flex;
             flex-direction: column;
             align-items: end;
-        }
-    
-        .idea__author {
-            font-size: $font-size-small;
+
+            &:not(:last-of-type) {
+                margin-bottom: 20px;
+            }
         }
 
         .idea__text-middle-change {
             display: block;
             position: relative;
-            margin-top: 20px;
 
             .idea__text-middle-background-mobile-change2 {
                 display: block;

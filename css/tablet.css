@@ -15,6 +15,9 @@
   .btn-plus img {
     width: 80px;
   }
+  .author {
+    font-size: 16px;
+  }
   /* header------------------------------------------------------------------------------------- */
   .header .header__container {
     /* padding-left: 34px; */
@@ -148,17 +151,14 @@
     max-width: 480px;
     font-size: 18px;
   }
-  .idea__body-middle .idea__author {
-    font-size: 16px;
+  .idea__body-middle .idea__wrap-text:nth-of-type(2) {
+    max-width: 479px;
+  }
+  .idea__body-middle .idea__wrap-text:not(:last-of-type) {
+    margin-bottom: 26px;
   }
   .idea__body-middle .idea__text-middle {
     position: relative;
-  }
-  .idea__body-middle .idea__text-middle:not(:last-of-type) {
-    margin-bottom: 26px;
-  }
-  .idea__body-middle .idea__text-middle:nth-of-type(3) {
-    max-width: 479px;
   }
   .idea__body-middle .idea__text-middle .idea__text-middle-background-tablet3 {
     display: block;
@@ -186,6 +186,38 @@
   .idea__body-middle .idea__text-middle .idea__text-middle-background-desktop4,
   .idea__body-middle .idea__text-middle .idea__text-middle-background-desktop5 {
     display: none;
+  }
+  .idea__body-bot {
+    font-size: 18px;
+  }
+  .idea__body-bot .idea__text-block {
+    max-width: 480px;
+  }
+  .idea__body-bot .idea__img-block {
+    max-width: 220px;
+  }
+  .idea__body-bot .idea__img-block .idea__signature-desktop {
+    display: none;
+  }
+  .idea__body-bot .idea__rozhin {
+    max-width: 220px;
+    max-height: 742px;
+  }
+  .idea__body-bot .idea__rozhin img {
+    rotate: -40deg;
+    margin-left: -445px;
+    margin-top: -333px;
+  }
+  .idea__body-bot .idea__btn {
+    top: 500px;
+    right: 424px;
+  }
+  .idea__signature-desktop-tablet {
+    display: block;
+    padding-left: 290px;
+    font-family: "Helvetica World";
+    font-size: 18px;
+    font-style: italic;
   }
 }
 

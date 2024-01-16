@@ -15,6 +15,9 @@
   .btn-plus img {
     width: 50px;
   }
+  .author {
+    font-size: 14px;
+  }
   .btn-more {
     display: block;
     background: transparent;
@@ -202,13 +205,12 @@
     flex-direction: column;
     align-items: end;
   }
-  .idea__body-middle .idea__author {
-    font-size: 14px;
+  .idea__body-middle .idea__wrap-text:not(:last-of-type) {
+    margin-bottom: 20px;
   }
   .idea__body-middle .idea__text-middle-change {
     display: block;
     position: relative;
-    margin-top: 20px;
   }
   .idea__body-middle .idea__text-middle-change .idea__text-middle-background-mobile-change2 {
     display: block;

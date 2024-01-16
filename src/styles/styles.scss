@@ -96,6 +96,12 @@ html {
     cursor: pointer;
 }
 
+.author {
+    font-size: $font-size-large;
+    font-family: "Helvetica World";
+    font-style: italic;
+}
+
 .btn-more {
     display: none;
 }
@@ -374,23 +380,18 @@ html {
     max-width: 560px;
     font-size: 20px;
     font-family: Albina;
+    margin-bottom: 170px;
 
     .idea__text-middle-change {
         display: none;
     }
 
-    .idea__author {
-        font-size: $font-size-large;
-        font-family: "Helvetica World";
-        font-style: italic;
+    .idea__wrap-text:not(:last-of-type) {
+        margin-bottom: 36px;
     }
 
     .idea__text-middle {
         position: relative;
-
-        &:not(:last-of-type) {
-            margin-bottom: 36px;
-        }
 
         .idea__text-middle-background-desktop2 {
             position: absolute;
@@ -428,6 +429,63 @@ html {
         .idea__text-middle-background-mobile4,
         .idea__text-middle-background-mobile5 {
             display: none;
+        }
+    }
+}
+
+.idea__body-bot {
+    display: flex;
+    font-size: 20px;
+    font-family: Albina;
+
+    .idea__text-block {
+        max-width: 560px;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .idea__img-block {
+        max-width: 600px;
+        position: relative;
+
+        .idea__signature-desktop {
+            display: block;
+            padding-left: 140px;
+            font-family: "Helvetica World";
+            font-size: $font-size-large;
+            font-style: italic;
+        }
+    }
+
+    .idea__rozhin {
+        max-width: 600px;
+
+        img {
+            margin-left: -298px;
+            margin-top: -349px;
+        }
+
+        img:nth-of-type(2) {
+            display: none;
+        }
+    }
+
+    .idea__btn {
+        position: absolute;
+        top: 450px;
+        right: 715px;
+        z-index: 55;
+
+        &:hover ~ .idea__rozhin {
+            
+            img:nth-of-type(1) {
+                display: none;
+            }
+
+            img:nth-of-type(2) {
+                display: block;
+            }
         }
     }
 }
