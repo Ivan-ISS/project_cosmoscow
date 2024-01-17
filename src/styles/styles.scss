@@ -170,6 +170,10 @@ html {
 
 }
 
+.page__problems {
+
+}
+
 /* footer------------------------------------------------------------------------------------- */
 
 
@@ -499,4 +503,79 @@ html {
 
 .idea__signature-desktop-tablet {
     display: none;
+}
+
+/* problems----------------------------------------------------------------------------------- */
+
+.problems__title {
+
+    margin-bottom: 24px;
+    
+    .problems__btn-arrow {
+        display: inline;
+    }
+}
+
+.problems__body-top {
+    display: flex;
+
+    .problems__image-block {
+        max-width: 649px;
+        position: relative;
+    }
+
+    .problems__btn {
+        position: absolute;
+        top: 89px;
+        right: 505px;
+        z-index: 55;
+
+        &:hover ~ .problems__human-code {
+            
+            img:nth-of-type(1) {
+                display: none;
+            }
+
+            img:nth-of-type(2) {
+                display: block;
+            }
+        }
+    }
+
+    .problems__human-code {
+        max-width: 649px;
+
+        img {
+            margin-top: 35px;
+            margin-left: -58px;
+        }
+
+        img:nth-of-type(2) {
+            display: none;
+        }
+    }
+
+    .problems__text-block {
+        max-width: 382px;
+    }
+
+    .problems__text-body {
+        padding: 97px 52px 92px 58px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        background-image: url(../src/images/png/problems-background.png);
+        background-repeat:  no-repeat;
+        background-position: 0 -33px;
+    }
+
+    .problems__text-top {
+        min-height: 226px;
+    }
+
+    .problems__text-top:first-child {
+        display: flex;
+        align-items: center;
+    }
 }

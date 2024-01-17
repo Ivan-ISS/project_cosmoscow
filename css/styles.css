@@ -415,4 +415,61 @@ html {
   display: none;
 }
 
+/* problems----------------------------------------------------------------------------------- */
+.problems__title {
+  margin-bottom: 24px;
+}
+.problems__title .problems__btn-arrow {
+  display: inline;
+}
+
+.problems__body-top {
+  display: flex;
+}
+.problems__body-top .problems__image-block {
+  max-width: 649px;
+  position: relative;
+}
+.problems__body-top .problems__btn {
+  position: absolute;
+  top: 89px;
+  right: 505px;
+  z-index: 55;
+}
+.problems__body-top .problems__btn:hover ~ .problems__human-code img:nth-of-type(1) {
+  display: none;
+}
+.problems__body-top .problems__btn:hover ~ .problems__human-code img:nth-of-type(2) {
+  display: block;
+}
+.problems__body-top .problems__human-code {
+  max-width: 649px;
+}
+.problems__body-top .problems__human-code img {
+  margin-top: 35px;
+  margin-left: -58px;
+}
+.problems__body-top .problems__human-code img:nth-of-type(2) {
+  display: none;
+}
+.problems__body-top .problems__text-block {
+  max-width: 382px;
+}
+.problems__body-top .problems__text-body {
+  padding: 97px 52px 92px 58px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(../src/images/png/problems-background.png);
+  background-repeat: no-repeat;
+  background-position: 0 -33px;
+}
+.problems__body-top .problems__text-top {
+  min-height: 226px;
+}
+.problems__body-top .problems__text-top:first-child {
+  display: flex;
+  align-items: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
