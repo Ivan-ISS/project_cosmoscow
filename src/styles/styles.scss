@@ -442,7 +442,14 @@ html {
         max-width: 560px;
         display: flex;
         flex-direction: column;
-        gap: 36px;
+
+        .idea__text-bot:not(:last-of-type) {
+            margin-bottom: 36px;
+        }
+        
+        .idea__text-bot-change {
+            display: none;
+        }
     }
 
     .idea__img-block {
@@ -488,4 +495,8 @@ html {
             }
         }
     }
+}
+
+.idea__signature-desktop-tablet {
+    display: none;
 }

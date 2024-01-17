@@ -19,6 +19,7 @@
     font-size: 14px;
   }
   .btn-more {
+    position: relative;
     display: block;
     background: transparent;
     color: #ff0000;
@@ -28,6 +29,7 @@
     align-items: end;
     cursor: pointer;
     order: 1;
+    z-index: 1;
   }
   .btn-more:nth-of-type(2) {
     display: none;
@@ -199,6 +201,7 @@
   .idea__body-middle {
     max-width: 201.5px;
     font-size: 18px;
+    margin-bottom: 44px;
   }
   .idea__body-middle .idea__wrap-text {
     display: flex;
@@ -287,6 +290,49 @@
   .idea__body-middle .idea__text-middle .idea__text-middle-background-tablet4,
   .idea__body-middle .idea__text-middle .idea__text-middle-background-tablet5 {
     display: none;
+  }
+  .idea__body-bot {
+    font-size: 18px;
+  }
+  .idea__body-bot .idea__text-block {
+    max-width: 200px;
+  }
+  .idea__body-bot .idea__text-block .idea__text-bot:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+  .idea__body-bot .idea__text-block .idea__text-bot:nth-of-type(2) {
+    display: none;
+  }
+  .idea__body-bot .idea__text-block .idea__text-bot-change {
+    display: block;
+  }
+  .idea__body-bot .idea__img-block {
+    max-width: 120px;
+  }
+  .idea__body-bot .idea__img-block .idea__signature-desktop {
+    display: none;
+  }
+  .idea__body-bot .idea__rozhin {
+    max-width: 120px;
+    max-height: 825px;
+  }
+  .idea__body-bot .idea__rozhin img {
+    width: 650px;
+    rotate: -17.58deg;
+    margin-left: -346px;
+    margin-top: 275px;
+  }
+  .idea__body-bot .idea__btn {
+    top: 457px;
+    right: 237px;
+  }
+  .idea__signature-desktop-tablet {
+    display: block;
+    padding-left: 0;
+    margin-left: -205px;
+    font-family: "Helvetica World";
+    font-size: 14px;
+    font-style: italic;
   }
 }
 

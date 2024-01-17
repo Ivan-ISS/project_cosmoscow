@@ -370,7 +370,12 @@ html {
   max-width: 560px;
   display: flex;
   flex-direction: column;
-  gap: 36px;
+}
+.idea__body-bot .idea__text-block .idea__text-bot:not(:last-of-type) {
+  margin-bottom: 36px;
+}
+.idea__body-bot .idea__text-block .idea__text-bot-change {
+  display: none;
 }
 .idea__body-bot .idea__img-block {
   max-width: 600px;
@@ -404,6 +409,10 @@ html {
 }
 .idea__body-bot .idea__btn:hover ~ .idea__rozhin img:nth-of-type(2) {
   display: block;
+}
+
+.idea__signature-desktop-tablet {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
