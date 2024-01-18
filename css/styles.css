@@ -448,6 +448,7 @@ html {
 
 .problems__body-top {
   display: flex;
+  margin-bottom: 100px;
 }
 .problems__body-top .problems__image-block {
   max-width: 649px;
@@ -496,6 +497,46 @@ html {
 .problems__body-top .problems__text-top:first-child {
   display: flex;
   align-items: center;
+}
+
+.problems__body-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.problems__body-middle .problems__text-middle {
+  max-width: 560px;
+  font-family: "Albina";
+  font-size: 20px;
+}
+.problems__body-middle .problems__image-block {
+  max-width: 560px;
+  position: relative;
+}
+.problems__body-middle .problems__signature {
+  position: relative;
+  font-style: italic;
+  top: -180px;
+  left: 400px;
+}
+.problems__body-middle .problems__btn {
+  position: absolute;
+  top: 65px;
+  right: 140px;
+  z-index: 55;
+}
+.problems__body-middle .problems__btn:hover ~ .problems__my-invest-art img:nth-of-type(1) {
+  display: none;
+}
+.problems__body-middle .problems__btn:hover ~ .problems__my-invest-art img:nth-of-type(2) {
+  display: block;
+}
+.problems__body-middle .problems__my-invest-art img {
+  margin-top: -315px;
+  margin-left: 315px;
+}
+.problems__body-middle .problems__my-invest-art img:nth-of-type(2) {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
