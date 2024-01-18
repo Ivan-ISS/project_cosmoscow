@@ -182,6 +182,10 @@
 
 /* idea--------------------------------------------------------------------------------------- */
 
+    .idea {
+        margin-bottom: 135px;
+    }
+
     .idea__title {
 
         .idea__btn-arrow {
@@ -421,6 +425,70 @@
         font-family: "Helvetica World";
         font-size: $font-size-small;
         font-style: italic;
+    }
+
+/* problems----------------------------------------------------------------------------------- */
+
+    .problems__container {
+    
+        .problems__background-wrap {
+            top: 0;
+            left: -60px;
+        }
+    }
+
+    .problems__title {
+        margin-bottom: 0;
+    }
+    
+    .problems__body-top {
+        flex-direction: column;
+    
+        .problems__image-block {
+            order: 1;
+            max-width: 320px;
+        }
+
+        .problems__signature {
+            position: absolute;
+            top: 285px;
+        }
+    
+        .problems__btn {
+            top: 130px;
+            right: 245px;
+            z-index: 55;
+        }
+    
+        .problems__human-code {
+            max-width: 320px;
+    
+            img {
+                width: 392px;
+                transform: scaleX(-1);
+                margin-top: -105px;
+                margin-left: 11px;
+            }
+        }
+    
+        .problems__text-block {
+            max-width: 320px;
+        }
+    
+        .problems__text-body {
+            margin-top: -0;
+            padding: 35px 57px 15px 7px;
+            gap: 0;
+    
+            background-image: url(../src/images/png/problems-background-mobile.png);
+            background-repeat:  no-repeat;
+            background-position: 0 5px;
+        }
+    
+        .problems__text-top {
+            max-width: 212px;
+            min-height: 177px;
+        }
     }
 
 }

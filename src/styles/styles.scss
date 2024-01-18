@@ -94,6 +94,8 @@ html {
 
 .btn-arrow {
     cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 
 .author {
@@ -507,12 +509,35 @@ html {
 
 /* problems----------------------------------------------------------------------------------- */
 
-.problems__title {
+.problems__container {
+    position: relative;
 
+    .problems__background-wrap {
+        position: absolute;
+        top: 60px;
+        left: -60px;
+        z-index: -1;
+    }
+
+    .problems__background-color {
+        position: absolute;
+        top: 0;
+        left: -4975px;
+        width: 5000px;
+        height: 2016px;
+        background-color: $base-black;
+    }
+}
+
+.problems__title {
     margin-bottom: 24px;
     
     .problems__btn-arrow {
-        display: inline;
+        position: relative;
+
+        img {
+            position: absolute;
+        }
     }
 }
 
@@ -522,6 +547,10 @@ html {
     .problems__image-block {
         max-width: 649px;
         position: relative;
+    }
+
+    .problems__signature {
+        font-style: italic;
     }
 
     .problems__btn {

@@ -91,6 +91,9 @@
     } */
   }
   /* idea--------------------------------------------------------------------------------------- */
+  .idea {
+    margin-bottom: 107px;
+  }
   .idea__title {
     margin-bottom: 28px;
   }
@@ -218,6 +221,46 @@
     font-family: "Helvetica World";
     font-size: 16px;
     font-style: italic;
+  }
+  /* problems----------------------------------------------------------------------------------- */
+  .problems__container .problems__background-wrap {
+    top: 0;
+    left: -60px;
+  }
+  .problems__title {
+    margin-bottom: 28px;
+  }
+  .problems__body-top .problems__image-block {
+    max-width: 400px;
+  }
+  .problems__body-top .problems__btn {
+    top: 740px;
+    right: 25px;
+    z-index: 55;
+  }
+  .problems__body-top .problems__human-code {
+    max-width: 400px;
+  }
+  .problems__body-top .problems__human-code img {
+    width: 576px;
+    rotate: -22.4deg;
+    margin-top: -58px;
+    margin-left: -82px;
+  }
+  .problems__body-top .problems__text-block {
+    max-width: 382px;
+  }
+  .problems__body-top .problems__text-body {
+    margin-top: -75px;
+    padding: 93px 30px 120px 26px;
+    gap: 12px;
+    background-image: url(../src/images/png/problems-background-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+  }
+  .problems__body-top .problems__text-top {
+    max-width: 240px;
+    min-height: 212px;
   }
 }
 

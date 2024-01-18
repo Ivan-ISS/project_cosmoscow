@@ -81,6 +81,8 @@ html {
 
 .btn-arrow {
   cursor: pointer;
+  position: relative;
+  z-index: 1;
 }
 
 .author {
@@ -416,11 +418,32 @@ html {
 }
 
 /* problems----------------------------------------------------------------------------------- */
+.problems__container {
+  position: relative;
+}
+.problems__container .problems__background-wrap {
+  position: absolute;
+  top: 60px;
+  left: -60px;
+  z-index: -1;
+}
+.problems__container .problems__background-color {
+  position: absolute;
+  top: 0;
+  left: -4975px;
+  width: 5000px;
+  height: 2016px;
+  background-color: #000000;
+}
+
 .problems__title {
   margin-bottom: 24px;
 }
 .problems__title .problems__btn-arrow {
-  display: inline;
+  position: relative;
+}
+.problems__title .problems__btn-arrow img {
+  position: absolute;
 }
 
 .problems__body-top {
@@ -429,6 +452,9 @@ html {
 .problems__body-top .problems__image-block {
   max-width: 649px;
   position: relative;
+}
+.problems__body-top .problems__signature {
+  font-style: italic;
 }
 .problems__body-top .problems__btn {
   position: absolute;
