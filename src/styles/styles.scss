@@ -173,7 +173,7 @@ html {
 }
 
 .page__problems {
-
+    margin-bottom: 200px;
 }
 
 /* footer------------------------------------------------------------------------------------- */
@@ -727,6 +727,52 @@ html {
 
         img:nth-of-type(2) {
             display: none;
+        }
+    }
+}
+
+/* exit--------------------------------------------------------------------------------------- */
+
+.exit__body-top {
+    display: flex;
+    column-gap: 40px;
+
+    .exit__title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .exit__text-top {
+        max-width: 560px;
+        font-style: italic;
+    }
+}
+
+.exit__body-middle {
+    display: flex;
+    margin-top: -30px;
+
+    .exit__image-block {
+        padding: 65px 46px 132px 60px;
+    }
+
+    .exit__info-block {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        background: $base-black;
+        color: $base-white;
+        padding: 20px 29px;
+        max-width: 618px;
+
+        .exit__text-mobile {
+            display: none;
+        }
+
+        .exit__info-title {
+            display: block;
+            margin-bottom: 12px;
         }
     }
 }

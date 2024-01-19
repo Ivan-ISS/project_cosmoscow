@@ -89,6 +89,11 @@
             display: flex;
         }
     }
+/* main--------------------------------------------------------------------------------------- */
+
+.page__problems {
+    margin-bottom: 64px;
+}
 
 /* price-tag---------------------------------------------------------------------------------- */
 
@@ -631,6 +636,70 @@
                 width: 350px;
                 margin-top: -253px;
                 margin-left: -415px;
+            }
+        }
+    }
+
+/* exit--------------------------------------------------------------------------------------- */
+
+    .exit__body-top {
+        position: relative;
+        z-index: 1;
+        flex-direction: column;
+        row-gap: 20px;
+
+        .exit__title {
+
+            .exit__btn-arrow {
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        .exit__text-top {
+            max-width: 320px;
+        }
+
+        .exit__image-block {
+            margin-left: 80px;
+
+            img {
+                max-width: 267px;
+            }
+        }
+    }
+
+    .exit__body-middle {
+        margin-top: -175px;
+        margin-left: -19px;
+        flex-direction: column;
+        row-gap: 25px;
+    
+        .exit__image-block {
+            padding: 0 0 0 37px;
+
+            img {
+                max-width: 50px;
+            }
+        }
+    
+        .exit__info-block {
+            row-gap: 16px;
+            padding: 20px 18px;
+            max-width: 236px;
+    
+            .exit__info-title {
+                margin-bottom: 2px;
+            }
+
+            .exit__text-desktop {
+                display: none;
+            }
+
+            .exit__text-mobile {
+                display: block;
             }
         }
     }

@@ -60,6 +60,12 @@
         }
     }
 
+/* main--------------------------------------------------------------------------------------- */
+
+    .page__problems {
+        margin-bottom: 160px;
+    }
+
 /* price-tag---------------------------------------------------------------------------------- */
 
     .price-tag__container {
@@ -434,6 +440,59 @@
                 width: 500px;
                 margin-top: -377px;
                 margin-left: -767px;
+            }
+        }
+    }
+
+/* exit--------------------------------------------------------------------------------------- */
+
+    .exit__body-top {
+        column-gap: 45px;
+
+        .exit__title {
+
+            .exit__btn-arrow {
+
+                img {
+                    width: 53px;
+                }
+            }
+        }
+
+        .exit__text-top {
+            max-width: 340px;
+        }
+
+        .exit__image-block {
+            max-width: 402px;
+            margin-right: -90px;
+
+            img {
+                max-width: 402px;
+            }
+        }
+    }
+
+    .exit__body-middle {
+        margin-top: -14px;
+        column-gap: 25px;
+    
+        .exit__image-block {
+            padding: 0;
+            margin-left: -30px;
+
+            img {
+                max-width: 91px;
+            }
+        }
+    
+        .exit__info-block {
+            row-gap: 12px;
+            padding: 25px;
+            max-width: 530px;
+    
+            .exit__info-title {
+                margin-bottom: 8px;
             }
         }
     }
