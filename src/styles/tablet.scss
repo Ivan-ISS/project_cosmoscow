@@ -263,6 +263,7 @@
     
         .idea__img-block {
             max-width: 220px;
+            min-height: 742px;
     
             .idea__signature-desktop {
                 display: none;
@@ -300,18 +301,39 @@
     
         .problems__background-wrap {
             top: 0;
-            left: -45px;
+            left: -40px;
+        }
+
+        .problems__background-img-desktop {
+            display: none;
+        }
+
+        .problems__background-img-tablet {
+            display: block;
+        }
+
+        .problems__background-color {
+            height: 2322px;
         }
     }
 
     .problems__title {
         margin-bottom: 28px;
+        
+        .problems__btn-arrow {
+
+            img {
+                width: 53px;
+            }
+        }
     }
     
     .problems__body-top {
+        margin-bottom: 200px;
     
         .problems__image-block {
             max-width: 400px;
+            min-height: 658px;
         }
     
         .problems__btn {
@@ -322,6 +344,7 @@
     
         .problems__human-code {
             max-width: 400px;
+            max-height: 658px;
     
             img {
                 width: 576px;
@@ -348,6 +371,70 @@
         .problems__text-top {
             max-width: 240px;
             min-height: 212px;
+        }
+    }
+
+    .problems__body-middle {
+        margin-bottom: 18px;
+    
+        .problems__text-middle {
+            max-width: 480px;
+            font-size: 18px;
+        }
+    
+        .problems__image-block {
+            max-width: 480px;
+            min-height: none;
+        }
+    
+        .problems__signature {
+            top: 50px;
+            left: 315px;
+        }
+    
+        .problems__btn {
+            top: -15px;
+            right: -60px;
+        }
+    
+        .problems__my-invest-art {
+            max-height: none;
+    
+            img {
+                rotate: -26.38deg;
+                margin-top: -65px;
+                margin-left: -120px;
+            }
+        }
+    }
+
+    .problems__body-bot {
+    
+        .problems__text-block {
+            max-width: 470px;
+            font-size: 18px;
+
+            .problems__author {
+                color: $base-white;
+            }
+        }
+    
+        .problems__image-block {
+            max-width: 230px;
+        }
+    
+        .problems__btn {
+            top: -150px;
+            right: 280px;
+        }
+    
+        .problems__bashaev-small {
+    
+            img {
+                width: 500px;
+                margin-top: -377px;
+                margin-left: -767px;
+            }
         }
     }
 

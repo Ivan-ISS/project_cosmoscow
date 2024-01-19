@@ -394,6 +394,7 @@
     
         .idea__img-block {
             max-width: 120px;
+            max-height: 825px;
     
             .idea__signature-desktop {
                 display: none;
@@ -433,16 +434,37 @@
     
         .problems__background-wrap {
             top: 0;
-            left: -45px;
+            left: -35px;
+        }
+
+        .problems__background-img-desktop {
+            display: none;
+        }
+
+        .problems__background-img-mobile {
+            display: block;
+        }
+
+        .problems__background-color {
+            height: 2322px;
         }
     }
 
     .problems__title {
         margin-bottom: 0;
+
+        .problems__btn-arrow {
+            top: 7px;
+
+            img {
+                width: 30px;
+            }
+        }
     }
     
     .problems__body-top {
         flex-direction: column;
+        margin-bottom: 20px;
     
         .problems__image-block {
             order: 1;
@@ -488,6 +510,68 @@
         .problems__text-top {
             max-width: 212px;
             min-height: 177px;
+        }
+    }
+
+    .problems__body-middle {
+        margin-bottom: 110px;
+    
+        .problems__text-middle {
+            max-width: 200px;
+            font-size: 18px;
+        }
+    
+        .problems__image-block {
+            max-width: 320px;
+        }
+    
+        .problems__signature {
+            top: 300px;
+            left: 230px;
+        }
+    
+        .problems__btn {
+            top: -61px;
+            right: 0;
+        }
+    
+        .problems__my-invest-art {
+    
+            img {
+                max-width: 535px;
+                rotate: 15.38deg;
+                margin-top: -65px;
+                margin-left: -105px;
+                transform: scaleX(-1);
+            }
+        }
+    }
+
+    .problems__body-bot {
+    
+        .problems__text-block {
+            max-width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+    
+        .problems__image-block {
+            max-width: 120px;
+        }
+    
+        .problems__btn {
+            top: -150px;
+            right: 45px;
+        }
+    
+        .problems__bashaev-small {
+    
+            img {
+                width: 350px;
+                margin-top: -253px;
+                margin-left: -415px;
+            }
         }
     }
 

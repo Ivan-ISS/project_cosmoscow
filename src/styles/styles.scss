@@ -519,6 +519,11 @@ html {
         z-index: -1;
     }
 
+    .problems__background-img-tablet,
+    .problems__background-img-mobile {
+        display: none;
+    }
+
     .problems__background-color {
         position: absolute;
         top: 0;
@@ -623,13 +628,14 @@ html {
 
     .problems__image-block {
         max-width: 560px;
+        min-height: 379px;
         position: relative;
     }
 
     .problems__signature {
-        position: relative;
+        position: absolute;
         font-style: italic;
-        top: -180px;
+        top: 240px;
         left: 400px;
     }
 
@@ -652,10 +658,60 @@ html {
     }
 
     .problems__my-invest-art {
+        max-height: 379px;
 
         img {
             margin-top: -315px;
             margin-left: 315px;
+        }
+
+        img:nth-of-type(2) {
+            display: none;
+        }
+    }
+}
+
+.problems__body-bot {
+    display: flex;
+
+    .problems__text-block {
+        max-width: 560px;
+        font-family: "Albina";
+        font-size: 20px;
+    }
+
+    .problems__text-middle-change {
+        display: none;
+    }
+
+    .problems__image-block {
+        position: relative;
+        max-width: 600px;
+    }
+
+    .problems__btn {
+        position: absolute;
+        top: -205px;
+        right: 370px;
+        z-index: 55;
+
+        &:hover ~ .problems__bashaev-small {
+            
+            img:nth-of-type(1) {
+                display: none;
+            }
+
+            img:nth-of-type(2) {
+                display: block;
+            }
+        }
+    }
+
+    .problems__bashaev-small {
+
+        img {
+            margin-top: -385px;
+            margin-left: -895px;
         }
 
         img:nth-of-type(2) {
