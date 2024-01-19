@@ -428,10 +428,59 @@
     transform: scaleX(-1);
   }
   .problems__body-bot .problems__text-block {
+    font-size: 18px;
     max-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: end;
+    position: relative;
+  }
+  .problems__body-bot .problems__text-block .problems__background-color {
+    display: block;
+    position: absolute;
+    top: 430px;
+    left: -5005px;
+    width: 5000px;
+    /* height: 565px; */
+    background-color: #000000;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot {
+    display: none;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot .problems__background-color {
+    height: 565px;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile2,
+  .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile3 {
+    display: block;
+    position: absolute;
+    left: -28px;
+    z-index: -1;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile2 {
+    top: -37px;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile3 {
+    top: 707px;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot-change {
+    display: block;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot-change .problems__background-color {
+    height: 89px;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change2,
+  .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change3 {
+    display: block;
+    position: absolute;
+    left: -28px;
+    z-index: -1;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change2 {
+    top: -3px;
+  }
+  .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change3 {
+    top: 368px;
   }
   .problems__body-bot .problems__image-block {
     max-width: 120px;

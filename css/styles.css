@@ -555,7 +555,16 @@ html {
   font-family: "Albina";
   font-size: 20px;
 }
-.problems__body-bot .problems__text-middle-change {
+.problems__body-bot .problems__text-block .problems__text-background-mobile2,
+.problems__body-bot .problems__text-block .problems__text-background-mobile3,
+.problems__body-bot .problems__text-block .problems__text-background-mobile-change2,
+.problems__body-bot .problems__text-block .problems__text-background-mobile-change3 {
+  display: none;
+}
+.problems__body-bot .problems__text-block .problems__background-color {
+  display: none;
+}
+.problems__body-bot .problems__text-bot-change {
   display: none;
 }
 .problems__body-bot .problems__image-block {

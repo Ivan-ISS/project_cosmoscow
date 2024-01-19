@@ -678,9 +678,20 @@ html {
         max-width: 560px;
         font-family: "Albina";
         font-size: 20px;
+
+        .problems__text-background-mobile2,
+        .problems__text-background-mobile3,
+        .problems__text-background-mobile-change2,
+        .problems__text-background-mobile-change3 {
+            display: none;
+        }
+
+        .problems__background-color {
+            display: none;
+        }
     }
 
-    .problems__text-middle-change {
+    .problems__text-bot-change {
         display: none;
     }
 
