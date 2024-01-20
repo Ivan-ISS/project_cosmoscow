@@ -613,6 +613,7 @@ html {
 .exit__body-middle {
   display: flex;
   margin-top: -30px;
+  margin-bottom: 51px;
 }
 .exit__body-middle .exit__image-block {
   padding: 65px 46px 132px 60px;
@@ -632,6 +633,86 @@ html {
 .exit__body-middle .exit__info-block .exit__info-title {
   display: block;
   margin-bottom: 12px;
+}
+
+.exit__body-bot {
+  display: flex;
+  column-gap: 36px;
+}
+.exit__body-bot .exit__image-block {
+  position: relative;
+  max-width: 264px;
+  max-height: 464px;
+}
+.exit__body-bot .exit__image-block .exit__signature {
+  position: absolute;
+  top: 195px;
+  font-style: italic;
+}
+.exit__body-bot .exit__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 55;
+}
+.exit__body-bot .exit__btn:hover ~ .exit__di img:nth-of-type(1) {
+  display: none;
+}
+.exit__body-bot .exit__btn:hover ~ .exit__di img:nth-of-type(2) {
+  display: block;
+}
+.exit__body-bot .exit__di img {
+  margin-left: -350px;
+}
+.exit__body-bot .exit__di img:nth-of-type(2) {
+  display: none;
+}
+.exit__body-bot .exit__text-block {
+  padding-top: 49px;
+  max-width: 560px;
+  font-family: "Albina";
+  font-size: 20px;
+}
+.exit__body-bot .exit__text-block .exit__text-bot-change {
+  display: none;
+}
+
+.exit__body-below {
+  display: flex;
+}
+.exit__body-below .exit__text-block {
+  font-family: "Albina";
+  font-size: 20px;
+  max-width: 560px;
+}
+.exit__body-below .exit__image-block {
+  position: relative;
+  max-width: 600px;
+}
+.exit__body-below .exit__image-block .exit__signature {
+  position: absolute;
+  top: 400px;
+  margin-left: 150px;
+  font-style: italic;
+}
+.exit__body-below .exit__btn {
+  position: absolute;
+  top: 125px;
+  right: 720px;
+  z-index: 55;
+}
+.exit__body-below .exit__btn:hover ~ .exit__human-code img:nth-of-type(1) {
+  display: none;
+}
+.exit__body-below .exit__btn:hover ~ .exit__human-code img:nth-of-type(2) {
+  display: block;
+}
+.exit__body-below .exit__human-code img {
+  margin-top: -235px;
+  margin-left: -165px;
+}
+.exit__body-below .exit__human-code img:nth-of-type(2) {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
