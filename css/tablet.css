@@ -459,6 +459,7 @@
   }
   .footer__join-desktop {
     gap: 33px;
+    margin-bottom: 113px;
   }
   .footer__join-desktop .footer__btn-join {
     padding: 28px;
@@ -468,6 +469,46 @@
   }
   .footer__join-desktop .footer__text-join {
     font-size: 24px;
+  }
+  .footer__partners {
+    margin-bottom: 58px;
+  }
+  .footer__partners .footer__daub {
+    column-gap: 21px;
+    margin-bottom: 28px;
+  }
+  .footer__partners .footer__daub .footer__decor {
+    max-width: 514px;
+  }
+  .footer__partners .footer__logos {
+    display: flex;
+    column-gap: 55px;
+  }
+  .footer__partners .footer_logo-charisma {
+    max-width: 128px;
+  }
+  .footer__partners .footer_logo-hc {
+    max-width: 103px;
+  }
+  .footer__partners .footer_logo-cosmoscow {
+    max-width: 190px;
+  }
+  .footer__partners .footer_logo-invest-art {
+    max-width: 115px;
+  }
+  .titers__authors {
+    min-height: 445px;
+  }
+  .titers__authors .titers__text {
+    max-width: 265px;
+    font-size: 12px;
+    padding: 158px 0 160px 0;
+  }
+  .titers__authors .titers__social-network {
+    gap: 20px;
+  }
+  .titers__authors .titres__icon {
+    max-width: 22px;
   }
 }
 

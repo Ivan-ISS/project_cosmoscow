@@ -12,6 +12,7 @@
     .container-common {
         max-width: $size-container-mobile;
         margin: 0 auto;
+        min-width: 320px;
     }
 
 /* BEM-blocks--------------------------------------------------------------------------------- */
@@ -885,6 +886,58 @@
 
     .footer__join-desktop {
         display: none;
+    }
+
+    .footer__partners {
+        margin-bottom: 60px;
+    
+        .footer__daub {
+            column-gap: 12px;
+            margin-bottom: 26px;
+
+            .footer__decor {
+                max-width: 160px;
+            }
+        }
+    
+        .footer__logos {
+            display: flex;
+            column-gap: 25px;
+        }
+
+        .footer_logo-charisma {
+            max-width: 58px;
+        }
+
+        .footer_logo-hc {
+            max-width: 47px;
+        }
+
+        .footer_logo-cosmoscow {
+            max-width: 87px;
+        }
+
+        .footer_logo-invest-art {
+            max-width: 52px;
+        }
+    }
+
+    .titers__authors {
+        min-height: 324px;
+    
+        .titers__text {
+            max-width: 265px;
+            font-size: 12px;
+            padding: 117px 0 88px 0;
+        }
+    
+        .titers__social-network {
+            gap: 15px;
+        }
+
+        .titres__icon {
+            max-width: 18px;
+        }
     }
 
 }

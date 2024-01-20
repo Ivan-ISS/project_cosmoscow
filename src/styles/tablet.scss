@@ -626,6 +626,7 @@
     
     .footer__join-desktop {
         gap: 33px;
+        margin-bottom: 113px;
     
         .footer__btn-join {
             padding: 28px;
@@ -636,6 +637,58 @@
 
         .footer__text-join {
             font-size: 24px;
+        }
+    }
+
+    .footer__partners {
+        margin-bottom: 58px;
+    
+        .footer__daub {
+            column-gap: 21px;
+            margin-bottom: 28px;
+
+            .footer__decor {
+                max-width: 514px;
+            }
+        }
+    
+        .footer__logos {
+            display: flex;
+            column-gap: 55px;
+        }
+
+        .footer_logo-charisma {
+            max-width: 128px;
+        }
+
+        .footer_logo-hc {
+            max-width: 103px;
+        }
+
+        .footer_logo-cosmoscow {
+            max-width: 190px;
+        }
+
+        .footer_logo-invest-art {
+            max-width: 115px;
+        }
+    }
+
+    .titers__authors {
+        min-height: 445px;
+    
+        .titers__text {
+            max-width: 265px;
+            font-size: 12px;
+            padding: 158px 0 160px 0;
+        }
+    
+        .titers__social-network {
+            gap: 20px;
+        }
+
+        .titres__icon {
+            max-width: 22px;
         }
     }
 

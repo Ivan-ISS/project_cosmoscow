@@ -994,6 +994,7 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 42px;
+    margin-bottom: 143px;
 
     .footer__btn-join {
         padding: 35px;
@@ -1011,5 +1012,46 @@ html {
     
     .footer__btn-join:active {
         background: $base-red;   
+    }
+}
+
+.footer__partners {
+    margin-bottom: 82px;
+
+    .footer__daub {
+        display: flex;
+        align-items: center;
+        column-gap: 54px;
+        margin-bottom: 36px;
+    }
+
+    .footer__logos {
+        display: flex;
+        column-gap: 91px;
+    }
+}
+
+.titers {
+    background: $base-black;
+}
+
+.titers__authors {
+    min-height: 445px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titers__text {
+        max-width: 465px;
+        color: $base-white;
+        font-size: 14px;
+        padding: 156px 0 186px 0;
+        text-align: center;
+    }
+
+    .titers__social-network {
+        display: flex;
+        align-items: center;
+        gap: 20px;
     }
 }
