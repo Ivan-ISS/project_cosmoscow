@@ -757,6 +757,7 @@
     .exit__body-below {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 120px;
 
         .exit__text-block {
             max-width: 185px;
@@ -785,6 +786,105 @@
                 margin-left: -125px;
             }
         }
+    }
+
+    .exit__decor-footer {
+        margin-left: -25px;
+
+        img {
+            max-width: 379px;
+        }
+    }
+
+/* footer------------------------------------------------------------------------------------- */
+
+    /* .footer {
+        margin-top: 200px;
+    } */
+
+    .footer__body-top {
+        flex-direction: column;
+        padding-top: 0;
+
+        .footer__image-block-hand {
+            min-width: 320px;
+            min-height: 450px;
+
+            .footer__image-hand {
+                rotate: 10deg;
+                max-width: 450px;
+                top: -87px;
+                left: -81px;
+            }
+        }
+
+        .footer__join-mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 21px;
+            margin-bottom: 51px;
+
+            .footer__btn-join {
+                padding: 18px;
+                font-size: 25px;
+                line-height: 14px;
+                border-radius: 50%;
+                background: $base-white;
+                cursor: pointer;
+            }
+
+            .footer__text-join {
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+            
+            .footer__btn-join:active {
+                background: $base-red;   
+            }
+        }
+
+        .footer__text-block {
+            max-width: 233px;
+            margin-left: 0;
+
+            .footer__text {
+                font-size: 16px;
+
+                .footer__text-background {
+                    max-width: 200px;
+                    top: -5px;
+                    left: -5px;
+                }
+            }
+
+            .footer__image-block-charisma {
+                max-height: 310px;
+
+                .footer__signature {
+                    top: 51px;
+                    left: 197px;
+                }
+
+                .footer__btn {
+                    top: -25px;
+                    right: -80px;
+                }
+            
+                .footer__charisma {
+            
+                    img {
+                        max-width: 500px;
+                        margin-top: -331px;
+                        margin-left: 126px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__join-desktop {
+        display: none;
     }
 
 }

@@ -46,6 +46,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    background: $base-white;
 }
 
 .wrapper {
@@ -175,10 +176,6 @@ html {
 .page__problems {
     margin-bottom: 200px;
 }
-
-/* footer------------------------------------------------------------------------------------- */
-
-
 
 /* price-tag---------------------------------------------------------------------------------- */
 
@@ -733,6 +730,10 @@ html {
 
 /* exit--------------------------------------------------------------------------------------- */
 
+/* .exit__container {
+    position: relative;
+} */
+
 .exit__body-top {
     display: flex;
     column-gap: 40px;
@@ -884,5 +885,131 @@ html {
         img:nth-of-type(2) {
             display: none;
         }
+    }
+}
+
+.exit__decor-footer {
+    position: relative;
+    max-height: 86px;
+    z-index: 1;
+    margin-left: 41px;
+}
+
+/* footer------------------------------------------------------------------------------------- */
+
+.footer {
+    border-top: solid 3px $base-black;
+    background-color: $base-red;
+}
+
+.footer__body-top {
+    display: flex;
+    padding-top: 115px;
+
+    .footer__image-block-hand {
+        position: relative;
+        min-width: 610px;
+
+        .footer__image-hand {
+            position: absolute;
+            top: -410px;
+            left: -65px;
+            z-index: 2;
+        }
+    }
+
+    .footer__join-mobile {
+        display: none;
+    }
+
+    .footer__text-block {
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1px;
+
+        .footer__text {
+            position: relative;
+            font-size: 20px;
+
+            .white-text {
+                position: relative;
+                z-index: 1;
+            }
+
+            .footer__text-background {
+                position: absolute;
+                top: -2px;
+                left: -3px;
+            }
+        }
+
+        .footer__image-block-charisma {
+            position: relative;
+            max-height: 565px;
+
+            .footer__signature {
+                position: absolute;
+                top: 240px;
+                left: 83px;
+                text-transform: uppercase;
+                font-style: italic;
+            }
+
+            .footer__btn {
+                position: absolute;
+                top: 70px;
+                right: 285px;
+                z-index: 55;
+        
+                &:hover ~ .footer__charisma {
+                    
+                    img:nth-of-type(1) {
+                        display: none;
+                    }
+        
+                    img:nth-of-type(2) {
+                        display: block;
+                    }
+                }
+            }
+        
+            .footer__charisma {
+        
+                img {
+                    margin-top: -250px;
+                    margin-left: 163px;
+                }
+        
+                img:nth-of-type(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.footer__join-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+
+    .footer__btn-join {
+        padding: 35px;
+        font-size: 55px;
+        line-height: 32px;
+        border-radius: 50%;
+        background: $base-white;
+        cursor: pointer;
+    }
+
+    .footer__text-join {
+        text-transform: uppercase;
+        font-size: 44px;
+    }
+    
+    .footer__btn-join:active {
+        background: $base-red;   
     }
 }
