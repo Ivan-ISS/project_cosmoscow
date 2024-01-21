@@ -98,92 +98,79 @@
 
 /* price-tag---------------------------------------------------------------------------------- */
 
-    .price-tag {
-        background: $base-black;
-    }
-
     .price-tag__container {
         position: relative;
-        /* background: transparent; */
-    }
 
-    .price-tag__background-mobile {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 228px;
-        background: $base-white;
-        width: 100%;
-        height: 285px;
-    }
-
-    .price-tag__body {
-        max-width: 350px;
-        padding: 12px 0 0 0;
-    }
-
-    .price-tag__title {
-        max-width: 230px;
-        padding-bottom: 117px;
-        margin-bottom: 0;
-    }
-    
-    .price-tag__text {
-        max-width: 320px;
-        margin-top: 168px;
-        margin-bottom: 0;
-    }
-
-    .price-tag__text_screen_desktop {
-        display: none;
-    }
-
-    .price-tag__text_screen_mobile {
-        display: block;
-    }
-
-    .price-tag__image-price {
-        margin-top: -36px;
-        margin-bottom: -107px;
-        margin-left: 27px;
-        max-width: 320px;
-    }
-
-    .price-tag__dash-top {
-        top: -10px;
-        left: -195px;
-
-        img {
-            width: 15px;
-            height: 25px;
+        .price-tag__background {
+            left: 228px;
+            height: 285px;
         }
-    }
     
-    .price-tag__dash-bot {
-        display: none;
-    }
+        .price-tag__text-block {
+            max-width: 320px;
+            padding: 12px 0 0 0;
+        }
     
-    .price-tag__charisma {
-        width: 500px;
-        height: 500px;
-        position: relative;
-        margin-top: 24px;
-        margin-left: -381px;
-        z-index: 1;
-    }
+        .price-tag__title {
+            max-width: 230px;
+            padding-bottom: 117px;
+            margin-bottom: 0;
+        }
+        
+        .price-tag__text {
+            margin-top: 168px;
+            margin-bottom: 0;
+        }
     
-    .price-tag__image-charisma {
-        max-width: 472px;
-        transform: rotate(-20deg);
-    }
+        .price-tag__text_screen_desktop {
+            display: none;
+        }
     
-    .price-tag__signature {
-        display: none;
-    }
+        .price-tag__text_screen_mobile {
+            display: block;
+        }
+    
+        .price-tag__image-price {
+            margin-top: -36px;
+            margin-bottom: -107px;
+            margin-left: 27px;
+            max-width: 320px;
+        }
+    
+        .price-tag__dash-top {
+            top: -10px;
+            left: -195px;
+    
+            img {
+                width: 15px;
+                height: 25px;
+            }
+        }
+        
+        .price-tag__dash-bot {
+            display: none;
+        }
+        
+        .price-tag__charisma {
+            width: 0;
+            height: 500px;
 
-    .price-tag__btn {
-        top: 87px;
-        right: 155px;
+            img {
+                margin-top: 24px;
+                margin-left: -354px;
+                max-width: 472px;
+                transform: rotate(-20deg);
+            }
+        }
+        
+        .price-tag__signature {
+            display: none;
+        }
+    
+        .price-tag__btn {
+            top: 87px;
+            right: 0;
+        }
     }
 
 /* idea--------------------------------------------------------------------------------------- */

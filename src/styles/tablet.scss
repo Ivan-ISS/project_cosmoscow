@@ -62,6 +62,10 @@
 
 /* main--------------------------------------------------------------------------------------- */
 
+    .page__price-tag {
+        margin-bottom: 160px;
+    }
+
     .page__problems {
         margin-bottom: 160px;
     }
@@ -69,68 +73,68 @@
 /* price-tag---------------------------------------------------------------------------------- */
 
     .price-tag__container {
-        background: linear-gradient(to right, $base-black 609px, $base-white 91px);
-    }
 
-    .price-tag__body {
-        max-width: 350px;
-        padding: 40px 0 27px 0;
-    }
-    
-    .price-tag__text {
-        max-width: 335px;
-        margin-bottom: 118px;
-    }
-
-    .price-tag__text_screen_mobile {
-        display: none;
-    }
-
-    .price-tag__image-price {
-        max-width: 350px;
-    }
-    
-    .price-tag__dash-top {
-        top: -19px;
-        left: -9px;
-
-        img {
-            width: 16px;
+        .price-tag__background {
+            left: 608px;
         }
-    }
-    
-    .price-tag__dash-bot {
-        left: -9px;
-        bottom: -27px;
 
-        img {
-            width: 16px;
+        .price-tag__text-block {
+            max-width: 350px;
+            padding: 40px 0 27px 0;
         }
-    }
+        
+        .price-tag__text {
+            max-width: 335px;
+            margin-bottom: 118px;
+        }
     
-    .price-tag__charisma {
-        width: 350px;
-        height: 735px;
-        margin-top: -167px;
-        margin-left: -177px;
-    }
+        .price-tag__text_screen_mobile {
+            display: none;
+        }
     
-    .price-tag__image-charisma {
-        max-width: 825px;
-        transform: rotate(41.35deg);
-    }
+        .price-tag__image-price {
+            max-width: 350px;
+        }
+        
+        .price-tag__dash-top {
+            top: -19px;
+            left: -9px;
     
-    .price-tag__signature {
-        padding-left: 76px;
-    }
+            img {
+                width: 16px;
+            }
+        }
+        
+        .price-tag__dash-bot {
+            left: -9px;
+            bottom: -27px;
+    
+            img {
+                width: 16px;
+            }
+        }
+        
+        .price-tag__charisma {
+            width: 350px;
+            height: 735px;
 
-    .price-tag__btn {
-        top: 593px;
-        right: -114px;
-
-        /* img {
-            width: 80px;
-        } */
+            img {
+                margin-top: -167px;
+                margin-left: -177px;
+                max-width: 825px;
+                transform: rotate(41.35deg);
+            }
+        }
+        
+        .price-tag__signature {
+            bottom: 280px;
+            right: 115px;
+        }
+    
+        .price-tag__btn {
+            top: 600px;
+            right: 0;
+        }
     }
 
 /* idea--------------------------------------------------------------------------------------- */

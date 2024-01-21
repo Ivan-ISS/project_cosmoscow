@@ -39,60 +39,61 @@
     display: flex;
   }
   /* main--------------------------------------------------------------------------------------- */
+  .page__price-tag {
+    margin-bottom: 160px;
+  }
   .page__problems {
     margin-bottom: 160px;
   }
   /* price-tag---------------------------------------------------------------------------------- */
-  .price-tag__container {
-    background: linear-gradient(to right, #000000 609px, #ffffff 91px);
+  .price-tag__container .price-tag__background {
+    left: 608px;
   }
-  .price-tag__body {
+  .price-tag__container .price-tag__text-block {
     max-width: 350px;
     padding: 40px 0 27px 0;
   }
-  .price-tag__text {
+  .price-tag__container .price-tag__text {
     max-width: 335px;
     margin-bottom: 118px;
   }
-  .price-tag__text_screen_mobile {
+  .price-tag__container .price-tag__text_screen_mobile {
     display: none;
   }
-  .price-tag__image-price {
+  .price-tag__container .price-tag__image-price {
     max-width: 350px;
   }
-  .price-tag__dash-top {
+  .price-tag__container .price-tag__dash-top {
     top: -19px;
     left: -9px;
   }
-  .price-tag__dash-top img {
+  .price-tag__container .price-tag__dash-top img {
     width: 16px;
   }
-  .price-tag__dash-bot {
+  .price-tag__container .price-tag__dash-bot {
     left: -9px;
     bottom: -27px;
   }
-  .price-tag__dash-bot img {
+  .price-tag__container .price-tag__dash-bot img {
     width: 16px;
   }
-  .price-tag__charisma {
+  .price-tag__container .price-tag__charisma {
     width: 350px;
     height: 735px;
+  }
+  .price-tag__container .price-tag__charisma img {
     margin-top: -167px;
     margin-left: -177px;
-  }
-  .price-tag__image-charisma {
     max-width: 825px;
     transform: rotate(41.35deg);
   }
-  .price-tag__signature {
-    padding-left: 76px;
+  .price-tag__container .price-tag__signature {
+    bottom: 280px;
+    right: 115px;
   }
-  .price-tag__btn {
-    top: 593px;
-    right: -114px;
-    /* img {
-        width: 80px;
-    } */
+  .price-tag__container .price-tag__btn {
+    top: 600px;
+    right: 0;
   }
   /* idea--------------------------------------------------------------------------------------- */
   .idea {
