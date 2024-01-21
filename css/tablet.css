@@ -386,14 +386,18 @@
     column-gap: 0;
   }
   .exit__body-bot .exit__image-block {
-    max-width: 110px;
-    max-height: 420px;
+    width: 110px;
+    height: 420px;
   }
   .exit__body-bot .exit__image-block .exit__signature {
     top: 145px;
   }
   .exit__body-bot .exit__btn {
     right: 35px;
+  }
+  .exit__body-bot .exit__di {
+    width: 110px;
+    height: 420px;
   }
   .exit__body-bot .exit__di img {
     max-width: 479px;
@@ -410,7 +414,8 @@
     font-size: 18px;
   }
   .exit__body-below .exit__image-block {
-    max-width: 220px;
+    width: 220px;
+    height: 520px;
   }
   .exit__body-below .exit__image-block .exit__signature {
     top: -30px;
@@ -419,6 +424,10 @@
   .exit__body-below .exit__btn {
     top: 200px;
     right: 437px;
+  }
+  .exit__body-below .exit__human-code {
+    width: 220px;
+    height: 520px;
   }
   .exit__body-below .exit__human-code img {
     max-width: 620px;
@@ -457,7 +466,8 @@
     left: -5px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma {
-    max-height: 310px;
+    width: 340px;
+    height: 310px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__signature {
     top: 180px;
@@ -466,6 +476,10 @@
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__btn {
     top: 65px;
     right: 195px;
+  }
+  .footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma {
+    width: 340px;
+    height: 310px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma img {
     max-width: 628px;

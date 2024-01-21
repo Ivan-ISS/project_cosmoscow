@@ -661,8 +661,8 @@ html {
 }
 .exit__body-bot .exit__image-block {
   position: relative;
-  max-width: 264px;
-  max-height: 464px;
+  width: 264px;
+  height: 464px;
 }
 .exit__body-bot .exit__image-block .exit__signature {
   position: absolute;
@@ -680,6 +680,10 @@ html {
 }
 .exit__body-bot .exit__btn:hover ~ .exit__di img:nth-of-type(2) {
   display: block;
+}
+.exit__body-bot .exit__di {
+  width: 264px;
+  height: 464px;
 }
 .exit__body-bot .exit__di img {
   margin-left: -350px;
@@ -707,7 +711,8 @@ html {
 }
 .exit__body-below .exit__image-block {
   position: relative;
-  max-width: 600px;
+  width: 600px;
+  height: 582px;
 }
 .exit__body-below .exit__image-block .exit__signature {
   position: absolute;
@@ -726,6 +731,10 @@ html {
 }
 .exit__body-below .exit__btn:hover ~ .exit__human-code img:nth-of-type(2) {
   display: block;
+}
+.exit__body-below .exit__human-code {
+  width: 600px;
+  height: 582px;
 }
 .exit__body-below .exit__human-code img {
   margin-top: -235px;
@@ -786,7 +795,8 @@ html {
 }
 .footer__body-top .footer__text-block .footer__image-block-charisma {
   position: relative;
-  max-height: 565px;
+  width: 550px;
+  height: 565px;
 }
 .footer__body-top .footer__text-block .footer__image-block-charisma .footer__signature {
   position: absolute;
@@ -806,6 +816,10 @@ html {
 }
 .footer__body-top .footer__text-block .footer__image-block-charisma .footer__btn:hover ~ .footer__charisma img:nth-of-type(2) {
   display: block;
+}
+.footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma {
+  width: 550px;
+  height: 565px;
 }
 .footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma img {
   margin-top: -250px;

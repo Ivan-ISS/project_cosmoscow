@@ -520,8 +520,8 @@
         column-gap: 0;
     
         .exit__image-block {
-            max-width: 110px;
-            max-height: 420px;
+            width: 110px;
+            height: 420px;
     
             .exit__signature {
                 top: 145px;
@@ -533,6 +533,8 @@
         }
     
         .exit__di {
+            width: 110px;
+            height: 420px;
     
             img {
                 max-width: 479px;
@@ -556,7 +558,8 @@
         }
     
         .exit__image-block {
-            max-width: 220px;
+            width: 220px;
+            height: 520px;
     
             .exit__signature {
                 top: -30px;
@@ -570,6 +573,8 @@
         }
     
         .exit__human-code {
+            width: 220px;
+            height: 520px;
     
             img {
                 max-width: 620px;
@@ -618,7 +623,8 @@
             }
     
             .footer__image-block-charisma {
-                max-height: 310px;
+                width: 340px;
+                height: 310px;
     
                 .footer__signature {
                     top: 180px;
@@ -631,6 +637,8 @@
                 }
             
                 .footer__charisma {
+                    width: 340px;
+                    height: 310px;
             
                     img {
                         max-width: 628px;

@@ -813,8 +813,8 @@ html {
 
     .exit__image-block {
         position: relative;
-        max-width: 264px;
-        max-height: 464px;
+        width: 264px;
+        height: 464px;
 
         .exit__signature {
             position: absolute;
@@ -842,6 +842,8 @@ html {
     }
 
     .exit__di {
+        width: 264px;
+        height: 464px;
 
         img {
             margin-left: -350px;
@@ -875,7 +877,8 @@ html {
 
     .exit__image-block {
         position: relative;
-        max-width: 600px;
+        width: 600px;
+        height: 582px;
 
         .exit__signature {
             position: absolute;
@@ -904,6 +907,8 @@ html {
     }
 
     .exit__human-code {
+        width: 600px;
+        height: 582px;
 
         img {
             margin-top: -235px;
@@ -974,7 +979,8 @@ html {
 
         .footer__image-block-charisma {
             position: relative;
-            max-height: 565px;
+            width: 550px;
+            height: 565px;
 
             .footer__signature {
                 position: absolute;
@@ -1003,6 +1009,8 @@ html {
             }
         
             .footer__charisma {
+                width: 550px;
+                height: 565px;
         
                 img {
                     margin-top: -250px;
