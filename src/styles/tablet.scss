@@ -21,9 +21,11 @@
 }
 
 .btn-plus {
+    cursor: pointer;
     
     svg {
         width: $btn-plus-size-tablet;
+        height: $btn-plus-size-tablet;
     }
 }
 

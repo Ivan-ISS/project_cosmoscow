@@ -12,8 +12,12 @@
   .title {
     font-size: 36px;
   }
+  .btn-plus {
+    cursor: pointer;
+  }
   .btn-plus svg {
     width: 80px;
+    height: 80px;
   }
   .author,
   .signature {

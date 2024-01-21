@@ -22,9 +22,11 @@
 }
 
 .btn-plus {
+    cursor: pointer;
     
     svg {
         width: $btn-plus-size-mobile;
+        height: $btn-plus-size-mobile;
     }
 }
 
