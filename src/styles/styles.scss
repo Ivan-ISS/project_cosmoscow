@@ -223,6 +223,8 @@ html {
     .price-tag__image-block {
         position: relative;
         z-index: 1;
+        width: 600px;
+        height: 775px;
     }
     
     .price-tag__dash-top {
@@ -324,6 +326,8 @@ html {
 
     .idea__image-block {
         position: relative;
+        width: 500px;
+        height: 1140px;
 
         .idea__bashaev {
             width: 500px;
@@ -473,6 +477,7 @@ html {
 
     .idea__img-block {
         position: relative;
+        width: 600px;
         height: 940px;
 
         .idea__signature-desktop {
@@ -565,7 +570,8 @@ html {
     margin-bottom: 100px;
 
     .problems__image-block {
-        max-width: 649px;
+        width: 649px;
+        height: 965px;
         position: relative;
     }
 
@@ -592,7 +598,8 @@ html {
     }
 
     .problems__human-code {
-        max-width: 649px;
+        width: 649px;
+        height: 965px;
 
         img {
             margin-top: 35px;
@@ -641,8 +648,8 @@ html {
     }
 
     .problems__image-block {
-        max-width: 560px;
-        min-height: 379px;
+        width: 560px;
+        height: 397px;
         position: relative;
     }
 
@@ -672,7 +679,8 @@ html {
     }
 
     .problems__my-invest-art {
-        max-height: 379px;
+        width: 560px;
+        height: 397px;
 
         img {
             margin-top: -315px;
@@ -711,13 +719,14 @@ html {
 
     .problems__image-block {
         position: relative;
-        max-width: 600px;
+        width: 600px;
+        height: 384px;
     }
 
     .problems__btn {
         position: absolute;
         top: -205px;
-        right: 370px;
+        right: 970px;
         z-index: 55;
 
         &:hover ~ .problems__bashaev-small {
@@ -733,6 +742,8 @@ html {
     }
 
     .problems__bashaev-small {
+        width: 600px;
+        height: 384px;
 
         img {
             margin-top: -385px;

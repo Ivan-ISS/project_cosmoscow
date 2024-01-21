@@ -114,6 +114,11 @@
             }
         }
         
+        .price-tag__image-block {
+            width: 350px;
+            height: 735px;
+        }
+
         .price-tag__charisma {
             width: 350px;
             height: 735px;
@@ -178,6 +183,8 @@
         }
 
         .idea__image-block {
+            width: 340px;
+            height: 870px;
 
             .idea__bashaev {
                 width: 340px;
@@ -275,6 +282,7 @@
         }
     
         .idea__img-block {
+            width: 220px;
             height: 742px;
     
             .idea__signature-desktop {
@@ -344,8 +352,8 @@
         margin-bottom: 200px;
     
         .problems__image-block {
-            max-width: 400px;
-            min-height: 658px;
+            width: 400px;
+            height: 658px;
         }
     
         .problems__btn {
@@ -355,8 +363,8 @@
         }
     
         .problems__human-code {
-            max-width: 400px;
-            max-height: 658px;
+            width: 400px;
+            height: 658px;
     
             img {
                 width: 576px;
@@ -395,8 +403,8 @@
         }
     
         .problems__image-block {
-            max-width: 480px;
-            min-height: none;
+            width: 480px;
+            height: 660px;
         }
     
         .problems__signature {
@@ -410,7 +418,8 @@
         }
     
         .problems__my-invest-art {
-            max-height: none;
+            width: 480px;
+            height: 660px;
     
             img {
                 rotate: -26.38deg;
@@ -432,15 +441,18 @@
         }
     
         .problems__image-block {
-            max-width: 230px;
+            width: 230px;
+            height: 390px;
         }
     
         .problems__btn {
             top: -150px;
-            right: 280px;
+            right: 505px;
         }
     
         .problems__bashaev-small {
+            width: 230px;
+            height: 390px;
     
             img {
                 width: 500px;

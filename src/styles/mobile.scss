@@ -136,6 +136,11 @@
             margin-left: 27px;
             max-width: 320px;
         }
+
+        .price-tag__image-block {
+            width: 0;
+            height: 500px;
+        }
     
         .price-tag__dash-top {
             top: -10px;
@@ -240,6 +245,8 @@
 
 
         .idea__image-block {
+            width: 320px;
+            height: 505px;
 
             .idea__bashaev {
                 width: 320px;
@@ -466,7 +473,8 @@
     
         .problems__image-block {
             order: 1;
-            max-width: 320px;
+            width: 320px;
+            height: 411px;
         }
 
         .problems__signature {
@@ -481,7 +489,8 @@
         }
     
         .problems__human-code {
-            max-width: 320px;
+            width: 320px;
+            height: 411px;
     
             img {
                 width: 392px;
@@ -520,7 +529,8 @@
         }
     
         .problems__image-block {
-            max-width: 320px;
+            width: 320px;
+            height: 379px;
         }
     
         .problems__signature {
@@ -534,6 +544,8 @@
         }
     
         .problems__my-invest-art {
+            width: 320px;
+            height: 379px;
     
             img {
                 max-width: 535px;
@@ -615,15 +627,18 @@
         }
     
         .problems__image-block {
-            max-width: 120px;
+            width: 120px;
+            height: 554px;
         }
     
         .problems__btn {
             top: -150px;
-            right: 45px;
+            right: 170px;
         }
     
         .problems__bashaev-small {
+            width: 120px;
+            height: 554px;
     
             img {
                 width: 350px;

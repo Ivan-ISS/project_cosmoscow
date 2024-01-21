@@ -101,6 +101,10 @@
     margin-left: 27px;
     max-width: 320px;
   }
+  .price-tag__container .price-tag__image-block {
+    width: 0;
+    height: 500px;
+  }
   .price-tag__container .price-tag__dash-top {
     top: -10px;
     left: -195px;
@@ -179,6 +183,10 @@
   }
   .idea__body-top .idea__text-top-desktop {
     display: none;
+  }
+  .idea__body-top .idea__image-block {
+    width: 320px;
+    height: 505px;
   }
   .idea__body-top .idea__image-block .idea__bashaev {
     width: 320px;
@@ -361,7 +369,8 @@
   }
   .problems__body-top .problems__image-block {
     order: 1;
-    max-width: 320px;
+    width: 320px;
+    height: 411px;
   }
   .problems__body-top .problems__signature {
     position: absolute;
@@ -373,7 +382,8 @@
     z-index: 55;
   }
   .problems__body-top .problems__human-code {
-    max-width: 320px;
+    width: 320px;
+    height: 411px;
   }
   .problems__body-top .problems__human-code img {
     width: 392px;
@@ -404,7 +414,8 @@
     font-size: 18px;
   }
   .problems__body-middle .problems__image-block {
-    max-width: 320px;
+    width: 320px;
+    height: 379px;
   }
   .problems__body-middle .problems__signature {
     top: 300px;
@@ -413,6 +424,10 @@
   .problems__body-middle .problems__btn {
     top: -61px;
     right: 0;
+  }
+  .problems__body-middle .problems__my-invest-art {
+    width: 320px;
+    height: 379px;
   }
   .problems__body-middle .problems__my-invest-art img {
     max-width: 535px;
@@ -477,11 +492,16 @@
     top: 368px;
   }
   .problems__body-bot .problems__image-block {
-    max-width: 120px;
+    width: 120px;
+    height: 554px;
   }
   .problems__body-bot .problems__btn {
     top: -150px;
-    right: 45px;
+    right: 170px;
+  }
+  .problems__body-bot .problems__bashaev-small {
+    width: 120px;
+    height: 554px;
   }
   .problems__body-bot .problems__bashaev-small img {
     width: 350px;
