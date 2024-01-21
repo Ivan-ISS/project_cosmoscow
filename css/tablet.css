@@ -12,10 +12,11 @@
   .title {
     font-size: 36px;
   }
-  .btn-plus img {
+  .btn-plus svg {
     width: 80px;
   }
-  .author {
+  .author,
+  .signature {
     font-size: 16px;
   }
   /* header------------------------------------------------------------------------------------- */
@@ -92,7 +93,7 @@
     transform: rotate(41.35deg);
   }
   .price-tag__container .price-tag__signature {
-    bottom: 280px;
+    bottom: 138px;
     right: 115px;
   }
   .price-tag__container .price-tag__btn {
@@ -232,9 +233,6 @@
   .idea__signature-desktop-tablet {
     display: block;
     padding-left: 290px;
-    font-family: "Helvetica World";
-    font-size: 16px;
-    font-style: italic;
   }
   /* problems----------------------------------------------------------------------------------- */
   .problems__container .problems__background-wrap {

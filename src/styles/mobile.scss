@@ -23,12 +23,13 @@
 
 .btn-plus {
     
-    img {
+    svg {
         width: $btn-plus-size-mobile;
     }
 }
 
-.author {
+.author,
+.signature {
     font-size: $font-size-small;
 }
 
@@ -271,7 +272,7 @@
 
     .idea__body-middle {
         max-width: 201.5px;
-        font-size: 18px;
+        font-size: $font-size-large;
         margin-bottom: 44px;
         
         .idea__wrap-text {
@@ -379,7 +380,7 @@
     }
 
     .idea__body-bot {
-        font-size: 18px;
+        font-size: $font-size-large;
         flex-direction: column;
     
         .idea__text-block {
@@ -428,9 +429,6 @@
     .idea__signature-desktop-tablet {
         align-self: start;
         display: block;
-        font-family: "Helvetica World";
-        font-size: $font-size-small;
-        font-style: italic;
     }
 
 /* problems----------------------------------------------------------------------------------- */
@@ -525,7 +523,7 @@
     
         .problems__text-middle {
             max-width: 200px;
-            font-size: 18px;
+            font-size: $font-size-large;
         }
     
         .problems__image-block {
@@ -560,7 +558,7 @@
     .problems__body-bot {
     
         .problems__text-block {
-            font-size: 18px;
+            font-size: $font-size-large;
             max-width: 200px;
             display: flex;
             flex-direction: column;
@@ -752,7 +750,7 @@
             row-gap: 8px;
             padding-top: 0;
             max-width: 200px;
-            font-size: 16px;
+            font-size: $font-size-large;
 
             .exit__text-bot {
                 display: none;
@@ -771,7 +769,7 @@
 
         .exit__text-block {
             max-width: 185px;
-            font-size: 16px;
+            font-size: $font-size-large;
         }
     
         .exit__image-block {

@@ -22,12 +22,13 @@
 
 .btn-plus {
     
-    img {
+    svg {
         width: $btn-plus-size-tablet;
     }
 }
 
-.author {
+.author,
+.signature {
     font-size: $font-size-middle;
 }
 
@@ -132,7 +133,7 @@
         }
         
         .price-tag__signature {
-            bottom: 280px;
+            bottom: 138px;
             right: 115px;
         }
     
@@ -228,7 +229,7 @@
 
     .idea__body-middle {
         max-width: 480px;
-        font-size: 18px;
+        font-size: $font-size-large;
 
         .idea__wrap-text:nth-of-type(2) {
             max-width: 479px;
@@ -275,7 +276,7 @@
     }
 
     .idea__body-bot {
-        font-size: 18px;
+        font-size: $font-size-large;
     
         .idea__text-block {
             max-width: 480px;
@@ -310,9 +311,6 @@
     .idea__signature-desktop-tablet {
         display: block;
         padding-left: 290px;
-        font-family: "Helvetica World";
-        font-size: $font-size-middle;
-        font-style: italic;
     }
 
 /* problems----------------------------------------------------------------------------------- */
@@ -399,7 +397,7 @@
     
         .problems__text-middle {
             max-width: 480px;
-            font-size: 18px;
+            font-size: $font-size-large;
         }
     
         .problems__image-block {
@@ -433,7 +431,7 @@
     
         .problems__text-block {
             max-width: 470px;
-            font-size: 18px;
+            font-size: $font-size-large;
 
             .problems__author {
                 color: $base-white;
@@ -546,7 +544,7 @@
         .exit__text-block {
             padding-top: 0;
             max-width: 480px;
-            font-size: 18px;
+            font-size: $font-size-large;
         }
     }
 
@@ -554,7 +552,7 @@
     
         .exit__text-block {
             max-width: 480px;
-            font-size: 18px;
+            font-size: $font-size-large;
         }
     
         .exit__image-block {

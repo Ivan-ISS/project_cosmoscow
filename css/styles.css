@@ -70,13 +70,16 @@ html {
 .btn-plus {
   background: transparent;
 }
-.btn-plus img:nth-of-type(2) {
+.btn-plus svg ellipse {
+  fill: #000000;
+}
+.btn-plus svg:nth-of-type(2) {
   display: none;
 }
-.btn-plus:hover img:nth-of-type(1) {
+.btn-plus:hover svg:nth-of-type(1) {
   display: none;
 }
-.btn-plus:hover img:nth-of-type(2) {
+.btn-plus:hover svg:nth-of-type(2) {
   display: block;
 }
 
@@ -86,7 +89,8 @@ html {
   z-index: 1;
 }
 
-.author {
+.author,
+.signature {
   font-size: 18px;
   font-family: "Helvetica World";
   font-style: italic;
@@ -215,7 +219,6 @@ html {
   right: 175px;
   color: #ffffff;
   text-transform: uppercase;
-  font-style: italic;
 }
 .price-tag__container .price-tag__btn {
   position: absolute;
@@ -321,14 +324,11 @@ html {
   font-size: 12px;
   text-transform: lowercase;
 }
-.idea__body-top .idea__signature {
-  font-style: italic;
-}
 
 .idea__body-middle {
   max-width: 560px;
   font-size: 20px;
-  font-family: Albina;
+  font-family: "Albina";
   margin-bottom: 170px;
 }
 .idea__body-middle .idea__text-middle-change {
@@ -377,7 +377,7 @@ html {
 .idea__body-bot {
   display: flex;
   font-size: 20px;
-  font-family: Albina;
+  font-family: "Albina";
 }
 .idea__body-bot .idea__text-block {
   max-width: 560px;
@@ -398,9 +398,6 @@ html {
 .idea__body-bot .idea__img-block .idea__signature-desktop {
   display: block;
   padding-left: 140px;
-  font-family: "Helvetica World";
-  font-size: 18px;
-  font-style: italic;
 }
 .idea__body-bot .idea__rozhin {
   width: 600px;
@@ -472,9 +469,6 @@ html {
   height: 965px;
   position: relative;
 }
-.problems__body-top .problems__signature {
-  font-style: italic;
-}
 .problems__body-top .problems__btn {
   position: absolute;
   top: 89px;
@@ -535,7 +529,6 @@ html {
 }
 .problems__body-middle .problems__signature {
   position: absolute;
-  font-style: italic;
   top: 240px;
   left: 400px;
 }
@@ -613,9 +606,6 @@ html {
 }
 
 /* exit--------------------------------------------------------------------------------------- */
-/* .exit__container {
-    position: relative;
-} */
 .exit__body-top {
   display: flex;
   column-gap: 40px;
@@ -667,7 +657,6 @@ html {
 .exit__body-bot .exit__image-block .exit__signature {
   position: absolute;
   top: 195px;
-  font-style: italic;
 }
 .exit__body-bot .exit__btn {
   position: absolute;
@@ -718,7 +707,6 @@ html {
   position: absolute;
   top: 400px;
   margin-left: 150px;
-  font-style: italic;
 }
 .exit__body-below .exit__btn {
   position: absolute;
@@ -803,7 +791,6 @@ html {
   top: 240px;
   left: 83px;
   text-transform: uppercase;
-  font-style: italic;
 }
 .footer__body-top .footer__text-block .footer__image-block-charisma .footer__btn {
   position: absolute;

@@ -77,17 +77,23 @@ html {
 .btn-plus {
     background: transparent;
 
-    img:nth-of-type(2) {
+    svg {
+        ellipse {
+            fill: $base-black;
+        }
+    }
+
+    svg:nth-of-type(2) {
         display: none;
     }
 
     &:hover {
     
-        img:nth-of-type(1) {
+        svg:nth-of-type(1) {
             display: none;
         }
     
-        img:nth-of-type(2) {
+        svg:nth-of-type(2) {
             display: block;
         }
     }
@@ -99,7 +105,8 @@ html {
     z-index: 1;
 }
 
-.author {
+.author,
+.signature {
     font-size: $font-size-large;
     font-family: "Helvetica World";
     font-style: italic;
@@ -259,7 +266,6 @@ html {
         right: 175px;
         color: $base-white;
         text-transform: uppercase;
-        font-style: italic;
     }
     
     .price-tag__btn {
@@ -393,16 +399,12 @@ html {
             text-transform: lowercase;
         }
     }
-    
-    .idea__signature {
-        font-style: italic;
-    }
 }
 
 .idea__body-middle {
     max-width: 560px;
-    font-size: 20px;
-    font-family: Albina;
+    font-size: $font-size-huge;
+    font-family: "Albina";
     margin-bottom: 170px;
 
     .idea__text-middle-change {
@@ -458,8 +460,8 @@ html {
 
 .idea__body-bot {
     display: flex;
-    font-size: 20px;
-    font-family: Albina;
+    font-size: $font-size-huge;
+    font-family: "Albina";
 
     .idea__text-block {
         max-width: 560px;
@@ -483,9 +485,6 @@ html {
         .idea__signature-desktop {
             display: block;
             padding-left: 140px;
-            font-family: "Helvetica World";
-            font-size: $font-size-large;
-            font-style: italic;
         }
     }
 
@@ -575,10 +574,6 @@ html {
         position: relative;
     }
 
-    .problems__signature {
-        font-style: italic;
-    }
-
     .problems__btn {
         position: absolute;
         top: 89px;
@@ -644,7 +639,7 @@ html {
     .problems__text-middle {
         max-width: 560px;
         font-family: "Albina";
-        font-size: 20px;
+        font-size: $font-size-huge;
     }
 
     .problems__image-block {
@@ -655,7 +650,6 @@ html {
 
     .problems__signature {
         position: absolute;
-        font-style: italic;
         top: 240px;
         left: 400px;
     }
@@ -699,7 +693,7 @@ html {
     .problems__text-block {
         max-width: 560px;
         font-family: "Albina";
-        font-size: 20px;
+        font-size: $font-size-huge;
 
         .problems__text-background-mobile2,
         .problems__text-background-mobile3,
@@ -758,10 +752,6 @@ html {
 
 /* exit--------------------------------------------------------------------------------------- */
 
-/* .exit__container {
-    position: relative;
-} */
-
 .exit__body-top {
     display: flex;
     column-gap: 40px;
@@ -819,7 +809,6 @@ html {
         .exit__signature {
             position: absolute;
             top: 195px;
-            font-style: italic;
         }
     }
 
@@ -858,7 +847,7 @@ html {
         padding-top: 49px;
         max-width: 560px;
         font-family: "Albina";
-        font-size: 20px;
+        font-size: $font-size-huge;
 
         .exit__text-bot-change {
             display: none;
@@ -871,7 +860,7 @@ html {
 
     .exit__text-block {
         font-family: "Albina";
-        font-size: 20px;
+        font-size: $font-size-huge;
         max-width: 560px;
     }
 
@@ -884,7 +873,6 @@ html {
             position: absolute;
             top: 400px;
             margin-left: 150px;
-            font-style: italic;
         }
     }
 
@@ -987,7 +975,6 @@ html {
                 top: 240px;
                 left: 83px;
                 text-transform: uppercase;
-                font-style: italic;
             }
 
             .footer__btn {
