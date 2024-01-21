@@ -322,32 +322,37 @@ html {
         display: none;
     }
 
-    .idea__bashaev {
-        max-width: 500px;
+    .idea__image-block {
+        position: relative;
 
-        img {
-            margin-left: -265px;
-        }
-
-        img:nth-of-type(2) {
-            display: none;
-        }
-    }
-
-    .idea__btn {
-        position: absolute;
-        top: 1190px;
-        right: 0;
-        z-index: 55;
-
-        &:hover ~ .idea__bashaev {
-            
-            img:nth-of-type(1) {
+        .idea__bashaev {
+            width: 500px;
+            height: 1140px;
+    
+            img {
+                margin-left: -265px;
+            }
+    
+            img:nth-of-type(2) {
                 display: none;
             }
-
-            img:nth-of-type(2) {
-                display: block;
+        }
+    
+        .idea__btn {
+            position: absolute;
+            top: 870px;
+            right: 0;
+            z-index: 55;
+    
+            &:hover ~ .idea__bashaev {
+                
+                img:nth-of-type(1) {
+                    display: none;
+                }
+    
+                img:nth-of-type(2) {
+                    display: block;
+                }
             }
         }
     }
@@ -467,8 +472,8 @@ html {
     }
 
     .idea__img-block {
-        max-width: 600px;
         position: relative;
+        height: 940px;
 
         .idea__signature-desktop {
             display: block;
@@ -480,7 +485,8 @@ html {
     }
 
     .idea__rozhin {
-        max-width: 600px;
+        width: 600px;
+        height: 940px;
 
         img {
             margin-left: -298px;

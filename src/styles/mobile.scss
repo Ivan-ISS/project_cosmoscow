@@ -238,18 +238,23 @@
             display: none;
         }
 
-        .idea__bashaev {
-            max-width: 320px;
 
-            img {
-                width: 470px;
-                margin-left: -125px;
+        .idea__image-block {
+
+            .idea__bashaev {
+                width: 320px;
+                height: 505px;
+
+                img {
+                    width: 470px;
+                    margin-left: -125px;
+                }
             }
-        }
 
-        .idea__btn {
-            top: 448px;
-            right: 0;
+            .idea__btn {
+                top: 345px;
+                right: 0;
+            }
         }
 
         .idea__info-block-desktop {
@@ -368,6 +373,7 @@
 
     .idea__body-bot {
         font-size: 18px;
+        flex-direction: column;
     
         .idea__text-block {
             max-width: 200px;
@@ -386,8 +392,8 @@
         }
     
         .idea__img-block {
-            max-width: 120px;
-            max-height: 825px;
+            width: 320px;
+            height: 425px;
     
             .idea__signature-desktop {
                 display: none;
@@ -395,27 +401,26 @@
         }
     
         .idea__rozhin {
-            max-width: 120px;
-            max-height: 825px;
+            width: 320px;
+            height: 425px;
     
             img {
                 width: 650px;
                 rotate: -17.58deg;
-                margin-left: -346px;
-                margin-top: 275px;
+                margin-left: -140px;
+                margin-top: -130px;
             }
         }
     
         .idea__btn {
-            top: 457px;
+            top: 40px;
             right: 237px;
         }
     }
 
     .idea__signature-desktop-tablet {
+        align-self: start;
         display: block;
-        padding-left: 0;
-        margin-left: -205px;
         font-family: "Helvetica World";
         font-size: $font-size-small;
         font-style: italic;

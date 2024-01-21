@@ -265,25 +265,29 @@ html {
 .idea__body-top .idea__text-top-mobile {
   display: none;
 }
-.idea__body-top .idea__bashaev {
-  max-width: 500px;
+.idea__body-top .idea__image-block {
+  position: relative;
 }
-.idea__body-top .idea__bashaev img {
+.idea__body-top .idea__image-block .idea__bashaev {
+  width: 500px;
+  height: 1140px;
+}
+.idea__body-top .idea__image-block .idea__bashaev img {
   margin-left: -265px;
 }
-.idea__body-top .idea__bashaev img:nth-of-type(2) {
+.idea__body-top .idea__image-block .idea__bashaev img:nth-of-type(2) {
   display: none;
 }
-.idea__body-top .idea__btn {
+.idea__body-top .idea__image-block .idea__btn {
   position: absolute;
-  top: 1190px;
+  top: 870px;
   right: 0;
   z-index: 55;
 }
-.idea__body-top .idea__btn:hover ~ .idea__bashaev img:nth-of-type(1) {
+.idea__body-top .idea__image-block .idea__btn:hover ~ .idea__bashaev img:nth-of-type(1) {
   display: none;
 }
-.idea__body-top .idea__btn:hover ~ .idea__bashaev img:nth-of-type(2) {
+.idea__body-top .idea__image-block .idea__btn:hover ~ .idea__bashaev img:nth-of-type(2) {
   display: block;
 }
 .idea__body-top .idea__info-block-mobile {
@@ -383,8 +387,8 @@ html {
   display: none;
 }
 .idea__body-bot .idea__img-block {
-  max-width: 600px;
   position: relative;
+  height: 940px;
 }
 .idea__body-bot .idea__img-block .idea__signature-desktop {
   display: block;
@@ -394,7 +398,8 @@ html {
   font-style: italic;
 }
 .idea__body-bot .idea__rozhin {
-  max-width: 600px;
+  width: 600px;
+  height: 940px;
 }
 .idea__body-bot .idea__rozhin img {
   margin-left: -298px;
