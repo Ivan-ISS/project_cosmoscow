@@ -10,6 +10,14 @@
     min-width: 320px;
   }
   /* BEM-blocks--------------------------------------------------------------------------------- */
+  .dropdown-menu {
+    margin: 0 15px 0 15px;
+    left: -13px;
+    bottom: -98px;
+  }
+  .dropdown-menu .dropdown-menu__item:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
   .title {
     font-size: 32px;
   }

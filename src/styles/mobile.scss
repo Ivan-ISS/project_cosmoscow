@@ -17,6 +17,16 @@
 
 /* BEM-blocks--------------------------------------------------------------------------------- */
 
+.dropdown-menu {
+    margin: 0 15px 0 15px;
+    left: -13px;
+    bottom: -98px;
+
+    .dropdown-menu__item:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}
+
 .title {
     font-size: $font-size-title-mobile;
 }

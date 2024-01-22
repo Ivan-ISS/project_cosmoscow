@@ -1,10 +1,16 @@
 const btnPlus = document.getElementsByClassName('btn-plus');
 const btnMore = document.getElementsByClassName('btn-more');
-
-console.log(btnMore);
+const btnBurger = document.querySelector('.header__btn-burger');
+const dropdownMenu = document.querySelector('.dropdown-menu');
 
 let btnPlusDisplay = 'true';
 let btnMoreDisplay = 'true';
+
+
+// Обработка нажатий на кнопку для раскрытия меню навигации
+btnBurger.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('header__dropdown-menu_show');
+})
 
 //----------------------------------------------------------------------------------------
 //--------------------------ФУНКЦИЯ ДЛЯ СМЕНЫ КАРТИНКИ ПО КЛИКУ МЫШКИ---------------------
