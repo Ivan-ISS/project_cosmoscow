@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -p 1113",
-    "compile-css": "npx sass ./src/styles/styles.scss css/index.css",
+    "start": "http-server -p 5588",
+    "compile-css": "npx sass ./src/styles:css",
     "compile-css:watch": "npx sass ./src/styles:css --watch"
   },
   "repository": {
