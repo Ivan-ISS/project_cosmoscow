@@ -68,6 +68,15 @@ html {
     display: none;
 }
 
+.img-desktop-common,
+.img-tablet-common,
+.img-mobile-common {
+    
+    img:nth-of-type(2) {
+        display: none;
+    }
+}
+
 /* BEM-blocks--------------------------------------------------------------------------------- */
 
 .dropdown-menu {
@@ -115,17 +124,33 @@ html {
     svg:nth-of-type(2) {
         display: none;
     }
+}
 
-    /* &:hover {
+@media (min-width: 1281px) {
+
+    .btn-plus {
+        &:hover {
     
-        svg:nth-of-type(1) {
-            display: none;
+            svg:nth-of-type(1) {
+                display: none;
+            }
+        
+            svg:nth-of-type(2) {
+                display: block;
+            }
         }
     
-        svg:nth-of-type(2) {
-            display: block;
+        &:hover ~ .img-desktop-common {
+                    
+            img:nth-of-type(1) {
+                display: none;
+            }
+    
+            img:nth-of-type(2) {
+                display: block;
+            }
         }
-    } */
+    }
 }
 
 .btn-arrow {
@@ -154,8 +179,6 @@ html {
         display: flex;
         align-items: center;
         min-height: 100px;
-        /* padding: 0 60px;
-        box-sizing: content-box; */
         color: $base-red;
     }
 
@@ -177,7 +200,6 @@ html {
             &:hover {
                 font-style: italic;
                 text-decoration: underline;
-                /* border-bottom: solid 0.1px $base-red; */
             }
         }
     }
@@ -213,11 +235,6 @@ html {
 
 .page__price-tag {
     margin-bottom: 203px;
-    // внешние стили для элемента
-}
-
-.page__idea {
-
 }
 
 .page__problems {
@@ -261,12 +278,6 @@ html {
         display: none;
     }
     
-    /* .price-tag__image-price {
-        max-width: 390px;
-        width: 100%;
-        object-fit: cover;
-    } */
-    
     .price-tag__image-block {
         position: relative;
         z-index: 1;
@@ -293,10 +304,6 @@ html {
         img {
             margin-top: -213px;
             margin-left: -110px;
-        }
-    
-        img:nth-of-type(2) {
-            display: none;
         }
     }
     
@@ -374,19 +381,6 @@ html {
         position: relative;
         width: 500px;
         height: 1140px;
-
-        .idea__bashaev {
-            width: 500px;
-            height: 1140px;
-    
-            img {
-                margin-left: -265px;
-            }
-    
-            img:nth-of-type(2) {
-                display: none;
-            }
-        }
     
         .idea__btn {
             position: absolute;
@@ -404,6 +398,15 @@ html {
                     display: block;
                 }
             } */
+        }
+    }
+
+    .idea__bashaev {
+        width: 500px;
+        height: 1140px;
+
+        img {
+            margin-left: -265px;
         }
     }
 
@@ -536,10 +539,6 @@ html {
             margin-left: -298px;
             margin-top: -349px;
         }
-
-        img:nth-of-type(2) {
-            display: none;
-        }
     }
 
     .idea__btn {
@@ -640,10 +639,6 @@ html {
             margin-top: 35px;
             margin-left: -58px;
         }
-
-        img:nth-of-type(2) {
-            display: none;
-        }
     }
 
     .problems__text-block {
@@ -720,10 +715,6 @@ html {
             margin-top: -315px;
             margin-left: 315px;
         }
-
-        img:nth-of-type(2) {
-            display: none;
-        }
     }
 }
 
@@ -782,10 +773,6 @@ html {
         img {
             margin-top: -385px;
             margin-left: -895px;
-        }
-
-        img:nth-of-type(2) {
-            display: none;
         }
     }
 }
@@ -877,10 +864,6 @@ html {
         img {
             margin-left: -350px;
         }
-
-        img:nth-of-type(2) {
-            display: none;
-        }
     }
 
     .exit__text-block {
@@ -941,10 +924,6 @@ html {
         img {
             margin-top: -235px;
             margin-left: -165px;
-        }
-
-        img:nth-of-type(2) {
-            display: none;
         }
     }
 }
@@ -1034,20 +1013,16 @@ html {
                     }
                 } */
             }
-        
-            .footer__charisma {
-                width: 550px;
-                height: 565px;
-        
-                img {
-                    margin-top: -250px;
-                    margin-left: 163px;
-                }
-        
-                img:nth-of-type(2) {
-                    display: none;
-                }
-            }
+        }
+    }
+
+    .footer__charisma {
+        width: 550px;
+        height: 565px;
+
+        img {
+            margin-top: -250px;
+            margin-left: 163px;
         }
     }
 }

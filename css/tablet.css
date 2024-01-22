@@ -30,19 +30,6 @@
     font-size: 16px;
   }
   /* header------------------------------------------------------------------------------------- */
-  .header .header__container {
-    /* padding-left: 34px; */
-  }
-  .header .navigation {
-    /* .navigation__link {
-        white-space: nowrap;
-    }
-
-    .navigation__list {
-        flex-wrap: wrap;
-        row-gap: 10px;
-    } */
-  }
   .header .header__navigation {
     display: none;
   }
@@ -83,7 +70,7 @@
   }
   .price-tag__container .price-tag__dash-bot {
     left: -9px;
-    bottom: -27px;
+    bottom: -167px;
   }
   .price-tag__container .price-tag__dash-bot img {
     width: 16px;
@@ -99,8 +86,6 @@
   .price-tag__container .price-tag__charisma img {
     margin-top: -157px;
     margin-left: -177px;
-    /* max-width: 825px; */
-    /* transform: rotate(41.35deg); */
   }
   .price-tag__container .price-tag__signature {
     bottom: 138px;
@@ -148,7 +133,6 @@
     height: 870px;
   }
   .idea__body-top .idea__image-block .idea__bashaev img {
-    /* width: 900px; */
     margin-left: -334px;
   }
   .idea__body-top .idea__image-block .idea__btn {
@@ -232,7 +216,6 @@
     height: 742px;
   }
   .idea__body-bot .idea__rozhin img {
-    /* rotate: -40deg; */
     margin-left: -260px;
     margin-top: -145px;
   }
@@ -281,8 +264,6 @@
     height: 658px;
   }
   .problems__body-top .problems__human-code img {
-    /* width: 576px; */
-    /* rotate: -22.4deg; */
     margin-top: -135px;
     margin-left: -205px;
   }
@@ -325,7 +306,6 @@
     height: 660px;
   }
   .problems__body-middle .problems__my-invest-art img {
-    /* rotate: -26.38deg; */
     margin-top: 0;
     margin-left: 0;
   }
@@ -349,7 +329,6 @@
     height: 390px;
   }
   .problems__body-bot .problems__bashaev-small img {
-    /* width: 500px; */
     margin-top: -390px;
     margin-left: -780px;
   }
@@ -408,7 +387,6 @@
     height: 420px;
   }
   .exit__body-bot .exit__di img {
-    /* max-width: 479px; */
     margin-top: 7px;
     margin-left: -365px;
   }
@@ -438,7 +416,6 @@
     height: 520px;
   }
   .exit__body-below .exit__human-code img {
-    /* max-width: 620px; */
     margin-top: -65px;
     margin-left: -300px;
   }
@@ -490,7 +467,6 @@
     height: 310px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma img {
-    /* max-width: 628px; */
     margin-top: -165px;
     margin-left: 65px;
   }
