@@ -63,6 +63,11 @@ html {
     margin: 0 auto;
 }
 
+.img-tablet-common,
+.img-mobile-common {
+    display: none;
+}
+
 /* BEM-blocks--------------------------------------------------------------------------------- */
 
 .dropdown-menu {

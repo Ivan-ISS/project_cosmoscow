@@ -57,6 +57,11 @@ html {
   margin: 0 auto;
 }
 
+.img-tablet-common,
+.img-mobile-common {
+  display: none;
+}
+
 /* BEM-blocks--------------------------------------------------------------------------------- */
 .dropdown-menu {
   padding: 8px 16px 8px 30px;

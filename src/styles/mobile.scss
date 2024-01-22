@@ -15,6 +15,14 @@
         min-width: 320px;
     }
 
+    .img-desktop-common {
+        display: none;
+    }
+
+    .img-mobile-common {
+        display: block;
+    }
+
 /* BEM-blocks--------------------------------------------------------------------------------- */
 
 .dropdown-menu {
@@ -174,10 +182,10 @@
             height: 500px;
 
             img {
-                margin-top: 24px;
-                margin-left: -354px;
-                max-width: 472px;
-                transform: rotate(-20deg);
+                margin-top: 6px;
+                margin-left: -384px;
+                /* max-width: 472px; */
+                /* transform: rotate(-20deg); */
             }
         }
         
@@ -266,7 +274,7 @@
                 height: 505px;
 
                 img {
-                    width: 470px;
+                    /* width: 470px; */
                     margin-left: -125px;
                 }
             }
@@ -425,10 +433,10 @@
             height: 425px;
     
             img {
-                width: 650px;
-                rotate: -17.58deg;
-                margin-left: -140px;
-                margin-top: -130px;
+                /* width: 650px; */
+                /* rotate: -17.58deg; */
+                margin-left: -145px;
+                margin-top: -121px;
             }
         }
     
@@ -503,8 +511,8 @@
             height: 411px;
     
             img {
-                width: 392px;
-                transform: scaleX(-1);
+                /* width: 392px; */
+                /* transform: scaleX(-1); */
                 margin-top: -105px;
                 margin-left: 11px;
             }
@@ -558,11 +566,11 @@
             height: 379px;
     
             img {
-                max-width: 535px;
-                rotate: 15.38deg;
-                margin-top: -65px;
-                margin-left: -105px;
-                transform: scaleX(-1);
+                /* max-width: 535px; */
+                /* rotate: 15.38deg; */
+                margin-top: -55px;
+                margin-left: -72px;
+                /* transform: scaleX(-1); */
             }
         }
     }
@@ -651,9 +659,9 @@
             height: 554px;
     
             img {
-                width: 350px;
-                margin-top: -253px;
-                margin-left: -415px;
+                /* width: 350px; */
+                margin-top: -283px;
+                margin-left: -463px;
             }
         }
     }
@@ -746,13 +754,14 @@
         .exit__di {
             width: 200px;
             height: 120px;
+            position: relative;
     
             img {
-                rotate: -25deg;
-                max-width: 300px;
-                transform: scaleY(-1);
-                margin-top: -104px;
-                margin-left: -207px;
+                /* rotate: -25deg; */
+                max-width: 411px;
+                /* transform: scaleY(-1); */
+                margin-top: -190px;
+                margin-left: -250px;
             }
         }
     
@@ -804,9 +813,9 @@
             height: 330px;
     
             img {
-                max-width: 400px;
-                margin-top: -55px;
-                margin-left: -125px;
+                /* max-width: 400px; */
+                margin-top: -70px;
+                margin-left: -100px;
             }
         }
     }
@@ -886,13 +895,13 @@
                 height: 150px;
 
                 .footer__signature {
-                    top: 51px;
+                    top: 70px;
                     left: 197px;
                 }
 
                 .footer__btn {
-                    top: -25px;
-                    right: -80px;
+                    top: 0;
+                    right: -70px;
                 }
             
                 .footer__charisma {
@@ -900,9 +909,9 @@
                     height: 150px;
             
                     img {
-                        max-width: 500px;
-                        margin-top: -331px;
-                        margin-left: 126px;
+                        /* max-width: 500px; */
+                        margin-top: -330px;
+                        margin-left: 160px;
                     }
                 }
             }

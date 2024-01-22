@@ -25,16 +25,32 @@ function changePictureClick() {
                 console.log(event.currentTarget.nextElementSibling.lastElementChild); */
 
                 let screenWidth = document.documentElement.clientWidth;
-                if (screenWidth < 1280) {
+                if (screenWidth < 1280 && screenWidth > 767) {
                     if (btnPlusDisplay === 'true') {
-                        event.currentTarget.nextElementSibling.firstElementChild.style.display = 'none';
-                        event.currentTarget.nextElementSibling.lastElementChild.style.display = 'block';
+                        event.currentTarget.nextElementSibling.nextElementSibling.firstElementChild.style.display = 'none';
+                        event.currentTarget.nextElementSibling.nextElementSibling.lastElementChild.style.display = 'block';
                         event.currentTarget.firstElementChild.style.display = 'none';
                         event.currentTarget.lastElementChild.style.display = 'block';
                         btnPlusDisplay = 'false';
                     } else {
-                        event.currentTarget.nextElementSibling.firstElementChild.style.display = 'block';
-                        event.currentTarget.nextElementSibling.lastElementChild.style.display = 'none';
+                        event.currentTarget.nextElementSibling.nextElementSibling.firstElementChild.style.display = 'block';
+                        event.currentTarget.nextElementSibling.nextElementSibling.lastElementChild.style.display = 'none';
+                        event.currentTarget.firstElementChild.style.display = 'block';
+                        event.currentTarget.lastElementChild.style.display = 'none';
+                        btnPlusDisplay = 'true';
+                    }
+                }
+
+                if (screenWidth < 768) {
+                    if (btnPlusDisplay === 'true') {
+                        event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild.style.display = 'none';
+                        event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.lastElementChild.style.display = 'block';
+                        event.currentTarget.firstElementChild.style.display = 'none';
+                        event.currentTarget.lastElementChild.style.display = 'block';
+                        btnPlusDisplay = 'false';
+                    } else {
+                        event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild.style.display = 'block';
+                        event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.lastElementChild.style.display = 'none';
                         event.currentTarget.firstElementChild.style.display = 'block';
                         event.currentTarget.lastElementChild.style.display = 'none';
                         btnPlusDisplay = 'true';

@@ -9,6 +9,12 @@
     margin: 0 auto;
     min-width: 320px;
   }
+  .img-desktop-common {
+    display: none;
+  }
+  .img-mobile-common {
+    display: block;
+  }
   /* BEM-blocks--------------------------------------------------------------------------------- */
   .dropdown-menu {
     margin: 0 15px 0 15px;
@@ -136,10 +142,10 @@
     height: 500px;
   }
   .price-tag__container .price-tag__charisma img {
-    margin-top: 24px;
-    margin-left: -354px;
-    max-width: 472px;
-    transform: rotate(-20deg);
+    margin-top: 6px;
+    margin-left: -384px;
+    /* max-width: 472px; */
+    /* transform: rotate(-20deg); */
   }
   .price-tag__container .price-tag__signature {
     display: none;
@@ -208,7 +214,7 @@
     height: 505px;
   }
   .idea__body-top .idea__image-block .idea__bashaev img {
-    width: 470px;
+    /* width: 470px; */
     margin-left: -125px;
   }
   .idea__body-top .idea__image-block .idea__btn {
@@ -339,10 +345,10 @@
     height: 425px;
   }
   .idea__body-bot .idea__rozhin img {
-    width: 650px;
-    rotate: -17.58deg;
-    margin-left: -140px;
-    margin-top: -130px;
+    /* width: 650px; */
+    /* rotate: -17.58deg; */
+    margin-left: -145px;
+    margin-top: -121px;
   }
   .idea__body-bot .idea__btn {
     top: 40px;
@@ -398,8 +404,8 @@
     height: 411px;
   }
   .problems__body-top .problems__human-code img {
-    width: 392px;
-    transform: scaleX(-1);
+    /* width: 392px; */
+    /* transform: scaleX(-1); */
     margin-top: -105px;
     margin-left: 11px;
   }
@@ -442,11 +448,11 @@
     height: 379px;
   }
   .problems__body-middle .problems__my-invest-art img {
-    max-width: 535px;
-    rotate: 15.38deg;
-    margin-top: -65px;
-    margin-left: -105px;
-    transform: scaleX(-1);
+    /* max-width: 535px; */
+    /* rotate: 15.38deg; */
+    margin-top: -55px;
+    margin-left: -72px;
+    /* transform: scaleX(-1); */
   }
   .problems__body-bot .problems__text-block {
     font-size: 18px;
@@ -516,9 +522,9 @@
     height: 554px;
   }
   .problems__body-bot .problems__bashaev-small img {
-    width: 350px;
-    margin-top: -253px;
-    margin-left: -415px;
+    /* width: 350px; */
+    margin-top: -283px;
+    margin-left: -463px;
   }
   /* exit--------------------------------------------------------------------------------------- */
   .exit__body-top {
@@ -586,13 +592,14 @@
   .exit__body-bot .exit__di {
     width: 200px;
     height: 120px;
+    position: relative;
   }
   .exit__body-bot .exit__di img {
-    rotate: -25deg;
-    max-width: 300px;
-    transform: scaleY(-1);
-    margin-top: -104px;
-    margin-left: -207px;
+    /* rotate: -25deg; */
+    max-width: 411px;
+    /* transform: scaleY(-1); */
+    margin-top: -190px;
+    margin-left: -250px;
   }
   .exit__body-bot .exit__text-block {
     display: flex;
@@ -634,9 +641,9 @@
     height: 330px;
   }
   .exit__body-below .exit__human-code img {
-    max-width: 400px;
-    margin-top: -55px;
-    margin-left: -125px;
+    /* max-width: 400px; */
+    margin-top: -70px;
+    margin-left: -100px;
   }
   .exit__decor-footer {
     margin-left: -25px;
@@ -701,21 +708,21 @@
     height: 150px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__signature {
-    top: 51px;
+    top: 70px;
     left: 197px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__btn {
-    top: -25px;
-    right: -80px;
+    top: 0;
+    right: -70px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma {
     width: 233px;
     height: 150px;
   }
   .footer__body-top .footer__text-block .footer__image-block-charisma .footer__charisma img {
-    max-width: 500px;
-    margin-top: -331px;
-    margin-left: 126px;
+    /* max-width: 500px; */
+    margin-top: -330px;
+    margin-left: 160px;
   }
   .footer__join-desktop {
     display: none;

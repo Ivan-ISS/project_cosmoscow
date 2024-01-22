@@ -14,6 +14,14 @@
         margin: 0 auto;
     }
 
+    .img-desktop-common {
+        display: none;
+    }
+
+    .img-tablet-common {
+        display: block;
+    }
+
 /* BEM-blocks--------------------------------------------------------------------------------- */
 
 .title {
@@ -127,10 +135,10 @@
             height: 735px;
 
             img {
-                margin-top: -167px;
+                margin-top: -157px;
                 margin-left: -177px;
-                max-width: 825px;
-                transform: rotate(41.35deg);
+                /* max-width: 825px; */
+                /* transform: rotate(41.35deg); */
             }
         }
         
@@ -194,7 +202,7 @@
                 height: 870px;
 
                 img {
-                    width: 900px;
+                    /* width: 900px; */
                     margin-left: -334px;
                 }
             }
@@ -298,9 +306,9 @@
             height: 742px;
     
             img {
-                rotate: -40deg;
-                margin-left: -445px;
-                margin-top: -333px;
+                /* rotate: -40deg; */
+                margin-left: -260px;
+                margin-top: -145px;
             }
         }
     
@@ -367,10 +375,10 @@
             height: 658px;
     
             img {
-                width: 576px;
-                rotate: -22.4deg;
-                margin-top: -58px;
-                margin-left: -82px;
+                /* width: 576px; */
+                /* rotate: -22.4deg; */
+                margin-top: -135px;
+                margin-left: -205px;
             }
         }
     
@@ -422,9 +430,9 @@
             height: 660px;
     
             img {
-                rotate: -26.38deg;
-                margin-top: -65px;
-                margin-left: -120px;
+                /* rotate: -26.38deg; */
+                margin-top: 0;
+                margin-left: 0;
             }
         }
     }
@@ -455,9 +463,9 @@
             height: 390px;
     
             img {
-                width: 500px;
-                margin-top: -377px;
-                margin-left: -767px;
+                /* width: 500px; */
+                margin-top: -390px;
+                margin-left: -780px;
             }
         }
     }
@@ -537,9 +545,9 @@
             height: 420px;
     
             img {
-                max-width: 479px;
-                margin-top: 59px;
-                margin-left: -369px;
+                /* max-width: 479px; */
+                margin-top: 7px;
+                margin-left: -365px;
             }
         }
     
@@ -577,9 +585,9 @@
             height: 520px;
     
             img {
-                max-width: 620px;
-                margin-top: -74px;
-                margin-left: -260px;
+                /* max-width: 620px; */
+                margin-top: -65px;
+                margin-left: -300px;
             }
         }
     }
@@ -641,9 +649,9 @@
                     height: 310px;
             
                     img {
-                        max-width: 628px;
-                        margin-top: -158px;
-                        margin-left: 63px;
+                        /* max-width: 628px; */
+                        margin-top: -165px;
+                        margin-left: 65px;
                     }
                 }
             }
