@@ -1,12 +1,13 @@
 const btnPlus = document.getElementsByClassName('btn-plus');
 const btnMore = document.getElementsByClassName('btn-more');
 
-console.log(btnMore)
+console.log(btnMore);
 
 let btnPlusDisplay = 'true';
+let btnMoreDisplay = 'true';
 
-//-------------------------------------------------------------------------------------
-//--------------------------ФУНКЦИЯ ДЛЯ СМЕНЫ КАРТИНКИ ПО КЛИКУ МЫШКИ------------------
+//----------------------------------------------------------------------------------------
+//--------------------------ФУНКЦИЯ ДЛЯ СМЕНЫ КАРТИНКИ ПО КЛИКУ МЫШКИ---------------------
 
 function changePictureClick() {
     
@@ -69,6 +70,31 @@ function changePictureHover() {
     }
 }
 
+//----------------------------------------------------------------------------------------
+//----------------------ФУНКЦИЯ ДЛЯ РАСКРЫТИЯ ТЕКСТА ПО КЛИКУ МЫШКИ-----------------------
+
+function changeTextClick() {
+    
+    for (let i = 0; i < btnMore.length; i++) {
+        btnMore[i].addEventListener('click', (event) => {
+            if (btnMoreDisplay === 'true') {
+                event.currentTarget.nextElementSibling.nextElementSibling.style.display = 'none';
+                event.currentTarget.nextElementSibling.style.display = 'block';
+                event.currentTarget.firstElementChild.style.display = 'none';
+                event.currentTarget.lastElementChild.style.display = 'block';
+                btnMoreDisplay = 'false';
+            } else {
+                event.currentTarget.nextElementSibling.nextElementSibling.style.display = 'block';
+                event.currentTarget.nextElementSibling.style.display = 'none';
+                event.currentTarget.firstElementChild.style.display = 'block';
+                event.currentTarget.lastElementChild.style.display = 'none';
+                btnMoreDisplay = 'true';
+            }
+        })
+    }
+}
+
 //--------------------ВЫЗОВ ФУНКЦИЙ-----------------------
 changePictureHover();
 changePictureClick();
+changeTextClick();
