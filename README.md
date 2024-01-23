@@ -2,7 +2,7 @@
 
 **Для запуска проекта выполнить действия:**
 
-- клонировать репозиторий на свой ПК: git clone https://github.com/Ivan-ISS/project_commenting-system.git;<br>
+- клонировать репозиторий на свой ПК: git clone https://github.com/Ivan-ISS/project_cosmoscow.git;<br>
 - последовательно выполнить команды в терминале: npm install ==> npm run compile-css ==> npm run start;<br>
 - пройти по адресу http://127.0.0.1:5588
 
@@ -45,7 +45,7 @@ __Интерфейс приложения__ представлен нескол�
 
 **Для запуска проекта выполнить действия:**
 
-&nbsp; :heavy_check_mark: клонировать репозиторий на свой ПК: git clone https://github.com/Ivan-ISS/project_commenting-system.git;<br>
+&nbsp; :heavy_check_mark: клонировать репозиторий на свой ПК: git clone https://github.com/Ivan-ISS/project_cosmoscow.git;<br>
 &nbsp; :heavy_check_mark: поставить пакеты: npm install;<br>
 &nbsp; :heavy_check_mark: выполнить команду: npm compile-css;<br>
 &nbsp; :heavy_check_mark: запустить проект: npm run start;<br>
