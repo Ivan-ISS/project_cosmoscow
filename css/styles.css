@@ -546,7 +546,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-image: url(../src/images/png/problems-background.png);
+  background-image: url(../images/png/problems-background.png);
   background-repeat: no-repeat;
   background-position: 0 -33px;
 }
