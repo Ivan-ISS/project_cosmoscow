@@ -168,6 +168,12 @@
     font-size: 12px;
     text-transform: lowercase;
   }
+  .idea__body-top .idea__info-block-mobile .idea__info-quelle-mobile {
+    margin-top: -10px;
+    font-size: 12px;
+    grid-column: span 2;
+    max-width: 290px;
+  }
   .idea__body-top .idea__text-top-mobile {
     display: block;
     min-width: 320px;

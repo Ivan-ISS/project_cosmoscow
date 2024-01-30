@@ -158,6 +158,10 @@
     max-width: 200px;
     margin-bottom: 139px;
   }
+  .idea__body-top .idea__info-block-desktop .idea__info-quelle {
+    font-size: 14px;
+    text-align: left;
+  }
   .idea__body-middle {
     max-width: 480px;
     font-size: 18px;
@@ -217,7 +221,7 @@
   }
   .idea__body-bot .idea__rozhin img {
     margin-left: -260px;
-    margin-top: -145px;
+    margin-top: -135px;
   }
   .idea__body-bot .idea__btn {
     top: 500px;

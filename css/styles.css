@@ -368,6 +368,14 @@ html {
   font-size: 12px;
   text-transform: lowercase;
 }
+.idea__body-top .idea__info-block-desktop .idea__info-quelle-mobile {
+  display: none;
+}
+.idea__body-top .idea__info-block-desktop .idea__info-quelle {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: right;
+}
 
 .idea__body-middle {
   max-width: 560px;
@@ -449,11 +457,11 @@ html {
 }
 .idea__body-bot .idea__rozhin img {
   margin-left: -298px;
-  margin-top: -349px;
+  margin-top: -310px;
 }
 .idea__body-bot .idea__btn {
   position: absolute;
-  top: 450px;
+  top: 500px;
   right: 715px;
   z-index: 55;
   /* &:hover ~ .idea__rozhin {
