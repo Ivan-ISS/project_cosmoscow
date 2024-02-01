@@ -1,19 +1,11 @@
 const btnPlus = document.getElementsByClassName('btn-plus');
 const btnMore = document.getElementsByClassName('btn-more');
-const btnBurger = document.querySelector('.header__btn-burger');
 const dropdownMenu = document.querySelector('.dropdown-menu');
 
 let btnPlusDisplay = 'true';
 let screenMobile = 'false';
 let screenSizeDesktop = 1280;
 let screenSizeTablet = 768;
-
-//----------------------------------------------------------------------------------------
-//--------------ОБРАБОТКА НАЖАТИЙ НА КНОПКУ ДЛЯ РАСКРЫТИЯ МЕНЮ НАВИГАЦИИ------------------
-
-btnBurger.addEventListener('click', () => {
-    dropdownMenu.classList.toggle('header__dropdown-menu_show');
-})
 
 //----------------------------------------------------------------------------------------
 //--------------------------ФУНКЦИЯ ДЛЯ СМЕНЫ КАРТИНКИ ПО КЛИКУ МЫШКИ---------------------
@@ -23,12 +15,12 @@ function changePictureClick() {
     for (let i = 0; i < btnPlus.length; i++) {
         btnPlus[i].addEventListener('click', (event) => {
 
-            imgMainTablet = event.currentTarget.nextElementSibling.nextElementSibling.firstElementChild;
-            imgChangeTablet = event.currentTarget.nextElementSibling.nextElementSibling.lastElementChild;
-            imgMainMobile = event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild;
-            imgChangeMobile = event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.lastElementChild;
-            imgPlus = event.currentTarget.firstElementChild;
-            imgMinus = event.currentTarget.lastElementChild;
+            const imgMainTablet = event.currentTarget.nextElementSibling.nextElementSibling.firstElementChild;
+            const imgChangeTablet = event.currentTarget.nextElementSibling.nextElementSibling.lastElementChild;
+            const imgMainMobile = event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild;
+            const imgChangeMobile = event.currentTarget.nextElementSibling.nextElementSibling.nextElementSibling.lastElementChild;
+            const imgPlus = event.currentTarget.firstElementChild;
+            const imgMinus = event.currentTarget.lastElementChild;
 
             let styles = window.getComputedStyle(imgMinus);
             let screenWidth = document.documentElement.clientWidth;
@@ -74,10 +66,10 @@ function changeTextClick() {
     
     for (let i = 0; i < btnMore.length; i++) {
         btnMore[i].addEventListener('click', (event) => {
-            textShort = event.currentTarget.nextElementSibling.nextElementSibling;
-            textExpanded = event.currentTarget.nextElementSibling;
-            btnExpand = event.currentTarget.firstElementChild;
-            btnHide = event.currentTarget.lastElementChild;
+            const textShort = event.currentTarget.nextElementSibling.nextElementSibling;
+            const textExpanded = event.currentTarget.nextElementSibling;
+            const btnExpand = event.currentTarget.firstElementChild;
+            const btnHide = event.currentTarget.lastElementChild;
 
             if (btnExpand.style.display === 'block') {
                 textShort.style.display = 'none';

@@ -69,27 +69,6 @@ html {
 }
 
 /* BEM-blocks--------------------------------------------------------------------------------- */
-.dropdown-menu {
-  padding: 8px 16px 8px 30px;
-  position: absolute;
-  bottom: -50px;
-  border-radius: 5px;
-  background: #ffffff;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  z-index: 5;
-  min-width: 250px;
-}
-.dropdown-menu .dropdown-menu__item:not(:last-of-type) {
-  margin-bottom: 3px;
-}
-.dropdown-menu .dropdown-menu__link {
-  color: #ff0000;
-}
-.dropdown-menu .dropdown-menu__link:hover {
-  font-style: italic;
-  text-decoration: underline;
-}
-
 .title {
   font-size: 44px;
   text-transform: uppercase;
@@ -144,43 +123,33 @@ html {
 .header .header__container {
   position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   min-height: 100px;
-  color: #ff0000;
+  color: #000000;
 }
 .header .header__navigation {
   position: relative;
   z-index: 5;
 }
+.header .navigation {
+  max-width: 688px;
+}
 .header .navigation .navigation__list {
   display: flex;
-  column-gap: 100px;
+  column-gap: 90px;
+}
+.header .navigation .navigation__item:nth-child(1) {
+  max-width: 188px;
+}
+.header .navigation .navigation__item:nth-child(2) {
+  max-width: 196px;
 }
 .header .navigation .navigation__link {
   color: inherit;
 }
-.header .navigation .navigation__link:hover {
-  font-style: italic;
-  text-decoration: underline;
-}
-.header .header__btn-burger {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  background-color: transparent;
-  height: 30px;
-  padding: 8.5px 5.5px;
-  cursor: pointer;
-  display: none;
-}
-.header .header__btn-burger span {
-  display: block;
-  width: 16px;
-  border: solid 1.5px #ff0000;
-  border-radius: 3px;
-}
-
-.header__dropdown-menu_show {
+.header .navigation .navigation__link .navigation__link-ghost {
   display: none;
 }
 
@@ -223,7 +192,7 @@ html {
   margin-bottom: 36px;
 }
 .price-tag__container .price-tag__text {
-  margin-bottom: 12px;
+  margin-bottom: 55px;
 }
 .price-tag__container .price-tag__text_screen_mobile {
   display: none;
@@ -237,12 +206,12 @@ html {
 .price-tag__container .price-tag__dash-top {
   position: absolute;
   top: -25px;
-  left: 111px;
+  left: 575px;
 }
 .price-tag__container .price-tag__dash-bot {
   position: absolute;
-  left: 111px;
-  bottom: -43px;
+  left: 575px;
+  bottom: -20px;
 }
 .price-tag__container .price-tag__charisma {
   width: 600px;

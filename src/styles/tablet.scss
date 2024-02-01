@@ -46,12 +46,20 @@
 
     .header {
 
-        .header__navigation {
-            display: none;
-        }
+        .navigation {
+            max-width: 557px;
+    
+            .navigation__list {
+                column-gap: 50px;
+            }
 
-        .header__btn-burger {
-            display: flex;
+            .navigation__item:nth-child(1) {
+                max-width: 157px;
+            }
+    
+            .navigation__item:nth-child(2) {
+                max-width: 161px;
+            }
         }
     }
 
@@ -93,7 +101,7 @@
         
         .price-tag__dash-top {
             top: -19px;
-            left: -9px;
+            left: 340px;
     
             img {
                 width: 16px;
@@ -101,8 +109,8 @@
         }
         
         .price-tag__dash-bot {
-            left: -9px;
-            bottom: -167px;
+            left: 340px;
+            bottom: -24px;
     
             img {
                 width: 16px;
@@ -119,8 +127,8 @@
             height: 735px;
 
             img {
-                margin-top: -157px;
-                margin-left: -177px;
+                margin-top: -147px;
+                margin-left: -155px;
             }
         }
         

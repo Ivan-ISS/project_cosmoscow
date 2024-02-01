@@ -30,11 +30,17 @@
     font-size: 16px;
   }
   /* header------------------------------------------------------------------------------------- */
-  .header .header__navigation {
-    display: none;
+  .header .navigation {
+    max-width: 557px;
   }
-  .header .header__btn-burger {
-    display: flex;
+  .header .navigation .navigation__list {
+    column-gap: 50px;
+  }
+  .header .navigation .navigation__item:nth-child(1) {
+    max-width: 157px;
+  }
+  .header .navigation .navigation__item:nth-child(2) {
+    max-width: 161px;
   }
   /* main--------------------------------------------------------------------------------------- */
   .page__price-tag {
@@ -63,14 +69,14 @@
   }
   .price-tag__container .price-tag__dash-top {
     top: -19px;
-    left: -9px;
+    left: 340px;
   }
   .price-tag__container .price-tag__dash-top img {
     width: 16px;
   }
   .price-tag__container .price-tag__dash-bot {
-    left: -9px;
-    bottom: -167px;
+    left: 340px;
+    bottom: -24px;
   }
   .price-tag__container .price-tag__dash-bot img {
     width: 16px;
@@ -84,8 +90,8 @@
     height: 735px;
   }
   .price-tag__container .price-tag__charisma img {
-    margin-top: -157px;
-    margin-left: -177px;
+    margin-top: -147px;
+    margin-left: -155px;
   }
   .price-tag__container .price-tag__signature {
     bottom: 138px;

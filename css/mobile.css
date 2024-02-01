@@ -56,13 +56,25 @@
   }
   /* header------------------------------------------------------------------------------------- */
   .header .header__container {
-    min-height: 40px;
+    min-height: 70px;
   }
-  .header .header__navigation {
-    display: none;
+  .header .navigation {
+    max-width: 265px;
   }
-  .header .header__btn-burger {
-    display: flex;
+  .header .navigation .navigation__list {
+    column-gap: 12px;
+  }
+  .header .navigation .navigation__item:nth-child(1) {
+    max-width: 100px;
+  }
+  .header .navigation .navigation__item:nth-child(2) {
+    max-width: 62px;
+  }
+  .header .navigation .navigation__item {
+    font-size: 12px;
+  }
+  .header .navigation .navigation__link-ghost {
+    display: inline;
   }
   /* main--------------------------------------------------------------------------------------- */
   .page__problems {
@@ -107,7 +119,7 @@
   }
   .price-tag__container .price-tag__dash-top {
     top: -10px;
-    left: -195px;
+    left: 125px;
   }
   .price-tag__container .price-tag__dash-top img {
     width: 15px;

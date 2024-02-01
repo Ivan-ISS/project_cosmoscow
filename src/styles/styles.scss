@@ -79,30 +79,6 @@ html {
 
 /* BEM-blocks--------------------------------------------------------------------------------- */
 
-.dropdown-menu {
-    padding: 8px 16px 8px 30px;
-    position: absolute;
-    bottom: -50px;
-    border-radius: 5px;
-    background: $base-white;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    z-index: 5;
-    min-width: 250px;
-
-    .dropdown-menu__item:not(:last-of-type) {
-        margin-bottom: 3px;
-    }
-
-    .dropdown-menu__link {
-        color: $base-red;
-
-        &:hover {
-            font-style: italic;
-            text-decoration: underline;
-        }
-    }
-}
-
 .title {
     font-size: $font-size-title-desktop;
     text-transform: uppercase;
@@ -177,9 +153,11 @@ html {
     .header__container {
         position: relative;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
         min-height: 100px;
-        color: $base-red;
+        color: $base-black;
     }
 
     .header__navigation {
@@ -188,43 +166,29 @@ html {
     }
 
     .navigation {
+        max-width: 688px;
 
         .navigation__list {
             display: flex;
-            column-gap: 100px;
+            column-gap: 90px;
+        }
+
+        .navigation__item:nth-child(1) {
+            max-width: 188px;
+        }
+
+        .navigation__item:nth-child(2) {
+            max-width: 196px;
         }
 
         .navigation__link {
             color: inherit;
 
-            &:hover {
-                font-style: italic;
-                text-decoration: underline;
+            .navigation__link-ghost {
+                display: none;
             }
         }
     }
-
-    .header__btn-burger {
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        background-color: transparent;
-        height: 30px;
-        padding: 8.5px 5.5px;
-        cursor: pointer;
-        display: none;
-
-        span {
-            display: block;
-            width: 16px;
-            border: solid 1.5px $base-red;
-            border-radius: 3px;
-        }
-    }
-}
-
-.header__dropdown-menu_show {
-    display: none;
 }
 
 /* main--------------------------------------------------------------------------------------- */
@@ -271,7 +235,7 @@ html {
     }
     
     .price-tag__text {
-        margin-bottom: 12px;
+        margin-bottom: 55px;
     }
     
     .price-tag__text_screen_mobile {
@@ -288,13 +252,13 @@ html {
     .price-tag__dash-top {
         position: absolute;
         top: -25px;
-        left: 111px;
+        left: 575px;
     }
     
     .price-tag__dash-bot {
         position: absolute;
-        left: 111px;
-        bottom: -43px;
+        left: 575px;
+        bottom: -20px;
     }
     
     .price-tag__charisma {
