@@ -149,9 +149,6 @@ html {
 .header .navigation .navigation__link {
   color: inherit;
 }
-.header .navigation .navigation__link .navigation__link-ghost {
-  display: none;
-}
 
 /* main--------------------------------------------------------------------------------------- */
 .page {
