@@ -120,6 +120,10 @@ html {
 }
 
 /* header------------------------------------------------------------------------------------- */
+.header {
+  position: absolute;
+  width: 100%;
+}
 .header .header__container {
   position: relative;
   display: flex;
@@ -127,7 +131,9 @@ html {
   align-items: end;
   justify-content: center;
   min-height: 100px;
-  color: #000000;
+  color: #ffffff;
+  max-width: 100%;
+  padding-right: 30px;
 }
 .header .header__navigation {
   position: relative;
@@ -156,7 +162,7 @@ html {
 }
 
 .page__price-tag {
-  margin-bottom: 203px;
+  margin-bottom: 118px;
 }
 
 .page__problems {
@@ -165,12 +171,22 @@ html {
 
 /* price-tag---------------------------------------------------------------------------------- */
 .price-tag {
-  background: #000000;
+  position: relative;
+}
+.price-tag .price-tag__background {
+  position: absolute;
+  background-image: url(../images/png/background_price-tag.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .price-tag__container {
   position: relative;
   display: flex;
+  column-gap: 85px;
+  padding-top: 48%;
 }
 .price-tag__container .price-tag__background {
   position: absolute;
@@ -182,71 +198,22 @@ html {
 }
 .price-tag__container .price-tag__text-block {
   max-width: 460px;
-  padding: 40px 0 7px 0;
-  color: #ffffff;
 }
 .price-tag__container .price-tag__title {
   margin-bottom: 36px;
 }
-.price-tag__container .price-tag__text {
-  margin-bottom: 55px;
-}
 .price-tag__container .price-tag__text_screen_mobile {
   display: none;
 }
-.price-tag__container .price-tag__image-block {
-  position: relative;
-  z-index: 1;
-  width: 600px;
-  height: 775px;
-}
-.price-tag__container .price-tag__dash-top {
-  position: absolute;
-  top: -25px;
-  left: 575px;
-}
-.price-tag__container .price-tag__dash-bot {
-  position: absolute;
-  left: 575px;
-  bottom: -20px;
-}
-.price-tag__container .price-tag__charisma {
-  width: 600px;
-  height: 775px;
-}
-.price-tag__container .price-tag__charisma img {
-  margin-top: -213px;
-  margin-left: -110px;
-}
-.price-tag__container .price-tag__signature {
-  position: absolute;
-  bottom: 45px;
-  right: 175px;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.price-tag__container .price-tag__btn {
-  position: absolute;
-  top: 0;
-  right: -100px;
-  z-index: 55;
-  /* &:hover ~ .price-tag__charisma {
 
-      img:nth-of-type(1) {
-          display: none;
-      }
-
-      img:nth-of-type(2) {
-          display: block;
-      }
-  } */
+.price-mobile {
+  display: none;
 }
 
 /* idea--------------------------------------------------------------------------------------- */
 .idea__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .idea__title {
@@ -348,6 +315,7 @@ html {
   font-size: 20px;
   font-family: "Albina";
   margin-bottom: 170px;
+  align-self: center;
 }
 .idea__body-middle .idea__text-middle-change {
   display: none;

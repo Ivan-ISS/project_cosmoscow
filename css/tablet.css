@@ -44,62 +44,36 @@
   }
   /* main--------------------------------------------------------------------------------------- */
   .page__price-tag {
-    margin-bottom: 160px;
+    margin-bottom: 107px;
   }
   .page__problems {
     margin-bottom: 160px;
   }
   /* price-tag---------------------------------------------------------------------------------- */
+  .price-tag .price-tag__background {
+    background-position: -300px;
+  }
+  .price-tag__container {
+    padding-top: 56%;
+    gap: 0;
+  }
   .price-tag__container .price-tag__background {
     left: 608px;
   }
   .price-tag__container .price-tag__text-block {
-    max-width: 350px;
-    padding: 40px 0 27px 0;
+    max-width: 340px;
+    padding: 40px 0 0 0;
   }
   .price-tag__container .price-tag__text {
     max-width: 335px;
-    margin-bottom: 118px;
   }
   .price-tag__container .price-tag__text_screen_mobile {
     display: none;
   }
   .price-tag__container .price-tag__image-price {
-    max-width: 350px;
-  }
-  .price-tag__container .price-tag__dash-top {
-    top: -19px;
-    left: 340px;
-  }
-  .price-tag__container .price-tag__dash-top img {
-    width: 16px;
-  }
-  .price-tag__container .price-tag__dash-bot {
-    left: 340px;
-    bottom: -24px;
-  }
-  .price-tag__container .price-tag__dash-bot img {
-    width: 16px;
-  }
-  .price-tag__container .price-tag__image-block {
-    width: 350px;
-    height: 735px;
-  }
-  .price-tag__container .price-tag__charisma {
-    width: 350px;
-    height: 735px;
-  }
-  .price-tag__container .price-tag__charisma img {
-    margin-top: -147px;
-    margin-left: -155px;
-  }
-  .price-tag__container .price-tag__signature {
-    bottom: 138px;
-    right: 115px;
-  }
-  .price-tag__container .price-tag__btn {
-    top: 600px;
-    right: 0;
+    max-width: 307px;
+    margin-top: 185px;
+    margin-left: -61px;
   }
   /* idea--------------------------------------------------------------------------------------- */
   .idea {
