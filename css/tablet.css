@@ -30,6 +30,9 @@
     font-size: 16px;
   }
   /* header------------------------------------------------------------------------------------- */
+  .header .header__container {
+    padding-right: 34px;
+  }
   .header .navigation {
     max-width: 557px;
   }
