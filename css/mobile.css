@@ -615,7 +615,8 @@
     margin-left: -100px;
   }
   .exit__decor-footer {
-    margin-left: -25px;
+    margin-left: -10px;
+    margin-bottom: -4px;
   }
   .exit__decor-footer img {
     max-width: 379px;
@@ -633,7 +634,7 @@
     rotate: 10deg;
     max-width: 450px;
     top: -87px;
-    left: -81px;
+    left: -90px;
   }
   .footer__body-top .footer__join-mobile {
     display: flex;
