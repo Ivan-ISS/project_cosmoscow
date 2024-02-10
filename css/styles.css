@@ -728,7 +728,8 @@ html {
   position: relative;
   max-height: 86px;
   z-index: 1;
-  margin-left: 41px;
+  margin-left: 70px;
+  margin-bottom: -1px;
 }
 
 /* footer------------------------------------------------------------------------------------- */
@@ -748,7 +749,7 @@ html {
 .footer__body-top .footer__image-block-hand .footer__image-hand {
   position: absolute;
   top: -410px;
-  left: -65px;
+  left: -85px;
   z-index: 2;
 }
 .footer__body-top .footer__join-mobile {
@@ -840,6 +841,9 @@ html {
   align-items: center;
   column-gap: 54px;
   margin-bottom: 36px;
+}
+.footer__partners .footer__daub .footer__decor {
+  margin-left: 40px;
 }
 .footer__partners .footer__logos {
   display: flex;

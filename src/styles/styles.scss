@@ -860,7 +860,8 @@ html {
     position: relative;
     max-height: 86px;
     z-index: 1;
-    margin-left: 41px;
+    margin-left: 70px;
+    margin-bottom: -1px;
 }
 
 /* footer------------------------------------------------------------------------------------- */
@@ -881,7 +882,7 @@ html {
         .footer__image-hand {
             position: absolute;
             top: -410px;
-            left: -65px;
+            left: -85px;
             z-index: 2;
         }
     }
@@ -989,6 +990,10 @@ html {
         align-items: center;
         column-gap: 54px;
         margin-bottom: 36px;
+
+        .footer__decor {
+            margin-left: 40px;
+        }
     }
 
     .footer__logos {
