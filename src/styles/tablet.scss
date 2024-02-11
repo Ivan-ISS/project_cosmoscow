@@ -28,6 +28,10 @@
     font-size: $font-size-title-tablet;
 }
 
+.break-tablet {
+    display: inline;
+}
+
 .btn-plus {
     cursor: pointer;
     
@@ -621,10 +625,11 @@
         margin-bottom: 113px;
     
         .footer__btn-join {
-            padding: 28px;
-            font-size: 45px;
-            line-height: 26px;
-            cursor: pointer;
+
+            svg {
+                width: $btn-plus-size-tablet;
+                height: $btn-plus-size-tablet;
+            }
         }
 
         .footer__text-join {

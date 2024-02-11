@@ -27,6 +27,12 @@
   .title {
     font-size: 32px;
   }
+  .text-background-black-desktop {
+    background-color: transparent;
+  }
+  .break-mobile {
+    display: inline;
+  }
   .btn-plus {
     cursor: pointer;
   }
@@ -174,8 +180,9 @@
     max-width: 290px;
   }
   .idea__body-top .idea__text-top-mobile {
+    font-style: italic;
     display: block;
-    min-width: 320px;
+    min-width: 323px;
     position: relative;
   }
   .idea__body-top .idea__text-top-mobile .idea__text-top-background-mobile {
@@ -264,21 +271,20 @@
   .idea__body-middle .idea__text-middle .idea__text-middle-background-mobile2 {
     display: block;
     position: absolute;
-    top: 344px;
-    right: 12px;
+    left: -23px;
+    bottom: 133px;
     z-index: -1;
   }
   .idea__body-middle .idea__text-middle .idea__text-middle-background-mobile3 {
     display: block;
     position: absolute;
-    left: -4px;
     bottom: 159px;
     z-index: -1;
   }
   .idea__body-middle .idea__text-middle .idea__text-middle-background-mobile4 {
     display: block;
     position: absolute;
-    left: -13px;
+    left: -9px;
     bottom: 21px;
     z-index: -1;
   }
@@ -631,10 +637,10 @@
     min-height: 450px;
   }
   .footer__body-top .footer__image-block-hand .footer__image-hand {
-    rotate: 10deg;
+    rotate: 6deg;
     max-width: 450px;
     top: -87px;
-    left: -90px;
+    left: -100px;
   }
   .footer__body-top .footer__join-mobile {
     display: flex;
@@ -644,12 +650,18 @@
     margin-bottom: 51px;
   }
   .footer__body-top .footer__join-mobile .footer__btn-join {
-    padding: 18px;
-    font-size: 25px;
-    line-height: 14px;
-    border-radius: 50%;
-    background: #ffffff;
+    background: transparent;
     cursor: pointer;
+  }
+  .footer__body-top .footer__join-mobile .footer__btn-join svg {
+    width: 50px;
+    height: 50px;
+  }
+  .footer__body-top .footer__join-mobile .footer__btn-join svg ellipse {
+    fill: #ffffff;
+  }
+  .footer__body-top .footer__join-mobile .footer__btn-join svg:active ellipse {
+    fill: none;
   }
   .footer__body-top .footer__join-mobile .footer__text-join {
     text-transform: uppercase;

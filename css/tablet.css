@@ -18,6 +18,9 @@
   .title {
     font-size: 36px;
   }
+  .break-tablet {
+    display: inline;
+  }
   .btn-plus {
     cursor: pointer;
   }
@@ -462,11 +465,9 @@
     gap: 33px;
     margin-bottom: 113px;
   }
-  .footer__join-desktop .footer__btn-join {
-    padding: 28px;
-    font-size: 45px;
-    line-height: 26px;
-    cursor: pointer;
+  .footer__join-desktop .footer__btn-join svg {
+    width: 80px;
+    height: 80px;
   }
   .footer__join-desktop .footer__text-join {
     font-size: 24px;

@@ -6,6 +6,10 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  /* vertical-align: baseline;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%; */
 }
 
 ol,
@@ -76,6 +80,18 @@ html {
 
 .white-text {
   color: #ffffff;
+}
+
+.text-background-black-desktop {
+  background-color: #000000;
+}
+
+.break-mobile {
+  display: none;
+}
+
+.break-tablet {
+  display: none;
 }
 
 .btn-plus {
@@ -816,21 +832,23 @@ html {
   align-items: center;
   gap: 42px;
   margin-bottom: 143px;
+  /* .footer__btn-join:active {
+      background: $base-red;   
+  } */
 }
 .footer__join-desktop .footer__btn-join {
-  padding: 35px;
-  font-size: 55px;
-  line-height: 32px;
-  border-radius: 50%;
-  background: #ffffff;
+  background: transparent;
   cursor: pointer;
+}
+.footer__join-desktop .footer__btn-join svg ellipse {
+  fill: #ffffff;
+}
+.footer__join-desktop .footer__btn-join svg:active ellipse {
+  fill: none;
 }
 .footer__join-desktop .footer__text-join {
   text-transform: uppercase;
-  font-size: 44px;
-}
-.footer__join-desktop .footer__btn-join:active {
-  background: #ff0000;
+  font-size: 28px;
 }
 
 .footer__partners {
