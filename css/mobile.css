@@ -515,6 +515,7 @@
     position: absolute;
     /* top: 434px; */
     left: -5005px;
+    bottom: 30px;
     width: 5000px;
     background-color: #000000;
   }
@@ -544,6 +545,7 @@
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__background-color {
     height: 519px;
+    bottom: 35px;
     /* top: 430px; */
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change2,
