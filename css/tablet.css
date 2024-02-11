@@ -3,24 +3,30 @@
   body {
     font-size: 16px;
   }
+
   /* common helper classes---------------------------------------------------------------------- */
   .container-common {
     max-width: 700px;
     margin: 0 auto;
   }
+
   .img-desktop-common {
     display: none;
   }
+
   .img-tablet-common {
     display: block;
   }
+
   /* BEM-blocks--------------------------------------------------------------------------------- */
   .title {
     font-size: 36px;
   }
+
   .break-tablet {
     display: inline;
   }
+
   .btn-plus {
     cursor: pointer;
   }
@@ -28,10 +34,12 @@
     width: 80px;
     height: 80px;
   }
+
   .author,
   .signature {
     font-size: 16px;
   }
+
   /* header------------------------------------------------------------------------------------- */
   .header .header__container {
     padding-right: 34px;
@@ -40,7 +48,8 @@
     max-width: 557px;
   }
   .header .navigation .navigation__list {
-    column-gap: 50px;
+    -webkit-column-gap: 50px;
+            column-gap: 50px;
   }
   .header .navigation .navigation__item:nth-child(1) {
     max-width: 157px;
@@ -48,17 +57,21 @@
   .header .navigation .navigation__item:nth-child(2) {
     max-width: 161px;
   }
+
   /* main--------------------------------------------------------------------------------------- */
   .page__price-tag {
     margin-bottom: 107px;
   }
+
   .page__problems {
     margin-bottom: 160px;
   }
+
   /* price-tag---------------------------------------------------------------------------------- */
   .price-tag .price-tag__background {
     background-position: -300px;
   }
+
   .price-tag__container {
     padding-top: 56%;
     gap: 0;
@@ -81,19 +94,23 @@
     margin-top: 185px;
     margin-left: -61px;
   }
+
   /* idea--------------------------------------------------------------------------------------- */
   .idea {
     margin-bottom: 107px;
   }
+
   .idea__title {
     margin-bottom: 28px;
   }
   .idea__title .idea__btn-arrow {
-    align-self: start;
+    -ms-flex-item-align: start;
+        align-self: start;
   }
   .idea__title img {
     width: 53px;
   }
+
   .idea__body-top .idea__text-block {
     max-width: 340px;
   }
@@ -148,6 +165,7 @@
     font-size: 14px;
     text-align: left;
   }
+
   .idea__body-middle {
     max-width: 480px;
     font-size: 18px;
@@ -188,6 +206,7 @@
   .idea__body-middle .idea__text-middle .idea__text-middle-background-desktop5 {
     display: none;
   }
+
   .idea__body-bot {
     font-size: 18px;
   }
@@ -213,10 +232,12 @@
     top: 500px;
     right: 424px;
   }
+
   .idea__signature-desktop-tablet {
     display: block;
     padding-left: 290px;
   }
+
   /* problems----------------------------------------------------------------------------------- */
   .problems__container .problems__background-wrap {
     top: 0;
@@ -231,12 +252,14 @@
   .problems__container .problems__background-color {
     height: 2322px;
   }
+
   .problems__title {
     margin-bottom: 28px;
   }
   .problems__title .problems__btn-arrow img {
     width: 53px;
   }
+
   .problems__body-top {
     margin-bottom: 200px;
   }
@@ -272,6 +295,7 @@
     max-width: 240px;
     min-height: 212px;
   }
+
   .problems__body-middle {
     margin-bottom: 18px;
   }
@@ -299,6 +323,7 @@
     margin-top: 0;
     margin-left: 0;
   }
+
   .problems__body-bot .problems__text-block {
     max-width: 470px;
     font-size: 18px;
@@ -322,9 +347,11 @@
     margin-top: -390px;
     margin-left: -780px;
   }
+
   /* exit--------------------------------------------------------------------------------------- */
   .exit__body-top {
-    column-gap: 45px;
+    -webkit-column-gap: 45px;
+            column-gap: 45px;
   }
   .exit__body-top .exit__title .exit__btn-arrow img {
     width: 53px;
@@ -339,9 +366,11 @@
   .exit__body-top .exit__image-block img {
     max-width: 402px;
   }
+
   .exit__body-middle {
     margin-top: -14px;
-    column-gap: 25px;
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
     margin-bottom: 90px;
   }
   .exit__body-middle .exit__image-block {
@@ -359,8 +388,10 @@
   .exit__body-middle .exit__info-block .exit__info-title {
     margin-bottom: 8px;
   }
+
   .exit__body-bot {
-    column-gap: 0;
+    -webkit-column-gap: 0;
+            column-gap: 0;
   }
   .exit__body-bot .exit__image-block {
     width: 110px;
@@ -385,6 +416,7 @@
     max-width: 480px;
     font-size: 18px;
   }
+
   .exit__body-below .exit__text-block {
     max-width: 480px;
     font-size: 18px;
@@ -409,6 +441,7 @@
     margin-top: -65px;
     margin-left: -300px;
   }
+
   .exit__decor-footer {
     margin-left: -65px;
     margin-bottom: -6px;
@@ -416,8 +449,11 @@
   .exit__decor-footer img {
     max-width: 845px;
   }
+
   /* footer------------------------------------------------------------------------------------- */
   .footer__body-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 58px;
   }
@@ -461,6 +497,7 @@
     margin-top: -165px;
     margin-left: 65px;
   }
+
   .footer__join-desktop {
     gap: 33px;
     margin-bottom: 113px;
@@ -472,19 +509,24 @@
   .footer__join-desktop .footer__text-join {
     font-size: 24px;
   }
+
   .footer__partners {
     margin-bottom: 58px;
   }
   .footer__partners .footer__daub {
-    column-gap: 21px;
+    -webkit-column-gap: 21px;
+            column-gap: 21px;
     margin-bottom: 28px;
   }
   .footer__partners .footer__daub .footer__decor {
     max-width: 514px;
   }
   .footer__partners .footer__logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 55px;
+    -webkit-column-gap: 55px;
+            column-gap: 55px;
   }
   .footer__partners .footer_logo-charisma {
     max-width: 128px;
@@ -498,6 +540,7 @@
   .footer__partners .footer_logo-invest-art {
     max-width: 115px;
   }
+
   .titers__authors {
     min-height: 445px;
   }
@@ -513,5 +556,3 @@
     max-width: 22px;
   }
 }
-
-/*# sourceMappingURL=tablet.css.map */
