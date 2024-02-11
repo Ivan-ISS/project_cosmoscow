@@ -351,7 +351,7 @@
                 display: block;
                 position: absolute;
                 left: -23px;
-                bottom: 133px;
+                bottom: 128px;
                 z-index: -1;
             }
     
@@ -594,11 +594,13 @@
             }
             
                 .problems__text-background-mobile2 {
-                    top: -37px;
+                    /* top: -37px; */
+                    bottom: 321px;
                 }
 
                 .problems__text-background-mobile3 {
-                    top: 707px;
+                    /* top: 707px; */
+                    bottom: 34px;
                 }
             }
 
@@ -618,11 +620,13 @@
                 }
 
                 .problems__text-background-mobile-change2 {
-                    top: -3px;
+                    /* top: -3px; */
+                    bottom: 185px;
                 }
 
                 .problems__text-background-mobile-change3 {
-                    top: 368px;
+                    /* top: 368px; */
+                    bottom: 35px;
                 }
             }
         }
