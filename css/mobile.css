@@ -513,7 +513,7 @@
   .problems__body-bot .problems__text-block .problems__background-color {
     display: block;
     position: absolute;
-    top: 430px;
+    /* top: 434px; */
     left: -5005px;
     width: 5000px;
     background-color: #000000;
@@ -522,7 +522,7 @@
     display: none;
   }
   .problems__body-bot .problems__text-block .problems__text-bot .problems__background-color {
-    height: 565px;
+    height: 999px;
   }
   .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile2,
   .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile3 {
@@ -533,17 +533,18 @@
   }
   .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile2 {
     /* top: -37px; */
-    bottom: 321px;
+    bottom: 315px;
   }
   .problems__body-bot .problems__text-block .problems__text-bot .problems__text-background-mobile3 {
     /* top: 707px; */
-    bottom: 34px;
+    bottom: 30px;
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change {
     display: block;
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__background-color {
-    height: 89px;
+    height: 519px;
+    /* top: 430px; */
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change2,
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change3 {
