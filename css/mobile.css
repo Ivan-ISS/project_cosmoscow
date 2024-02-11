@@ -299,7 +299,7 @@
     display: block;
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: -4px;
     z-index: -1;
   }
   .idea__body-middle .idea__btn-more,
@@ -323,21 +323,21 @@
   .idea__body-middle .idea__text-middle .idea__text-middle-background-mobile3 {
     display: block;
     position: absolute;
-    bottom: 159px;
+    bottom: 156px;
     z-index: -1;
   }
   .idea__body-middle .idea__text-middle .idea__text-middle-background-mobile4 {
     display: block;
     position: absolute;
     left: -9px;
-    bottom: 21px;
+    bottom: 18px;
     z-index: -1;
   }
   .idea__body-middle .idea__text-middle .idea__text-middle-background-mobile5 {
     display: block;
     position: absolute;
     left: 0;
-    bottom: 1px;
+    bottom: -1px;
     z-index: -1;
   }
   .idea__body-middle .idea__text-middle .idea__text-middle-background-desktop2,
@@ -545,7 +545,7 @@
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__background-color {
     height: 519px;
-    bottom: 35px;
+    bottom: 40px;
     /* top: 430px; */
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change2,
@@ -557,11 +557,11 @@
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change2 {
     /* top: -3px; */
-    bottom: 185px;
+    bottom: 188px;
   }
   .problems__body-bot .problems__text-block .problems__text-bot-change .problems__text-background-mobile-change3 {
     /* top: 368px; */
-    bottom: 35px;
+    bottom: 40px;
   }
   .problems__body-bot .problems__image-block {
     width: 120px;
