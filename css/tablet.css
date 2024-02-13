@@ -60,7 +60,7 @@
 
   /* main--------------------------------------------------------------------------------------- */
   .page__price-tag {
-    margin-bottom: 107px;
+    margin-bottom: 0;
   }
 
   .page__problems {
@@ -73,7 +73,8 @@
   }
 
   .price-tag__container {
-    padding-top: 56%;
+    padding-top: 49%;
+    padding-bottom: 105px;
     gap: 0;
   }
   .price-tag__container .price-tag__background {
@@ -93,6 +94,9 @@
     max-width: 307px;
     margin-top: 185px;
     margin-left: -61px;
+  }
+  .price-tag__container .price-tag__price {
+    padding-top: 0;
   }
 
   /* idea--------------------------------------------------------------------------------------- */

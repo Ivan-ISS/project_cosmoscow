@@ -228,6 +228,7 @@ html {
 
     .price-tag__background {
         position: absolute;
+        top: -73px;
         background-image: url(../images/png/background_price-tag.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -240,7 +241,7 @@ html {
     position: relative;
     display: flex;
     column-gap: 85px;
-    padding-top: 48%;
+    padding-top: 39%;
 
     .price-tag__background {
         position: absolute;
@@ -261,6 +262,10 @@ html {
     
     .price-tag__text_screen_mobile {
         display: none;
+    }
+
+    .price-tag__price {
+        padding-top: 49px;;
     }
 }
 

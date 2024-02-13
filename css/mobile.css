@@ -116,6 +116,7 @@
 
   /* price-tag---------------------------------------------------------------------------------- */
   .price-tag .price-tag__background {
+    top: 0;
     background-position: -145px;
     background-position-y: -10px;
     min-height: 459px;
@@ -156,6 +157,9 @@
     margin-left: -28px;
     max-width: 303px;
     display: none;
+  }
+  .price-tag__container .price-tag__price {
+    padding-top: 0;
   }
 
   .price-mobile {
