@@ -547,6 +547,8 @@
 
   .titers__authors {
     min-height: 445px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .titers__authors .titers__text {
     max-width: 265px;
