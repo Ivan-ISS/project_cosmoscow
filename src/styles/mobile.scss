@@ -931,11 +931,15 @@
         }
     
         .footer__logos {
+            display: none;
+        }
+
+        .footer__logos-mobile {
             display: flex;
             column-gap: 25px;
         }
 
-        .footer_logo-charisma {
+        /* .footer_logo-charisma {
             max-width: 58px;
         }
 
@@ -949,7 +953,7 @@
 
         .footer_logo-invest-art {
             max-width: 52px;
-        }
+        } */
     }
 
     .titers__authors {

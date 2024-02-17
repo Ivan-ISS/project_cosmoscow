@@ -979,6 +979,9 @@ html {
   -webkit-column-gap: 91px;
           column-gap: 91px;
 }
+.footer__partners .footer__logos-mobile {
+  display: none;
+}
 
 .titers {
   background: #000000;

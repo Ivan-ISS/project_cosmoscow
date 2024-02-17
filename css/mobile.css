@@ -824,6 +824,21 @@
 
   .footer__partners {
     margin-bottom: 60px;
+        /* .footer_logo-charisma {
+            max-width: 58px;
+        }
+
+        .footer_logo-hc {
+            max-width: 47px;
+        }
+
+        .footer_logo-cosmoscow {
+            max-width: 87px;
+        }
+
+        .footer_logo-invest-art {
+            max-width: 52px;
+        } */
   }
   .footer__partners .footer__daub {
     -webkit-column-gap: 12px;
@@ -834,23 +849,14 @@
     max-width: 160px;
   }
   .footer__partners .footer__logos {
+    display: none;
+  }
+  .footer__partners .footer__logos-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-column-gap: 25px;
             column-gap: 25px;
-  }
-  .footer__partners .footer_logo-charisma {
-    max-width: 58px;
-  }
-  .footer__partners .footer_logo-hc {
-    max-width: 47px;
-  }
-  .footer__partners .footer_logo-cosmoscow {
-    max-width: 87px;
-  }
-  .footer__partners .footer_logo-invest-art {
-    max-width: 52px;
   }
 
   .titers__authors {
