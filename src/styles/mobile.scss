@@ -937,6 +937,10 @@
         .footer__logos-mobile {
             display: flex;
             column-gap: 25px;
+
+            img {
+                object-fit: scale-down;
+            }
         }
 
         /* .footer_logo-charisma {

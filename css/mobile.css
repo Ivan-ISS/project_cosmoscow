@@ -858,6 +858,10 @@
     -webkit-column-gap: 25px;
             column-gap: 25px;
   }
+  .footer__partners .footer__logos-mobile img {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+  }
 
   .titers__authors {
     min-height: 324px;
