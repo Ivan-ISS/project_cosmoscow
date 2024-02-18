@@ -979,8 +979,18 @@ html {
   -webkit-column-gap: 91px;
           column-gap: 91px;
 }
+.footer__partners .footer__logos .footer__logos-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .footer__partners .footer__logos-mobile {
   display: none;
+}
+.footer__partners .footer__logos-mobile .footer__logos-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .titers {

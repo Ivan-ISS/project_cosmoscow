@@ -1026,10 +1026,18 @@ html {
     .footer__logos {
         display: flex;
         column-gap: 91px;
+
+        .footer__logos-link {
+            display: flex;
+        }
     }
 
     .footer__logos-mobile {
         display: none;
+
+        .footer__logos-link {
+            display: flex;
+        }
     }
 }
 
