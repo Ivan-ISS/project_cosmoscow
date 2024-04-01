@@ -414,10 +414,11 @@
   }
   .problems__container .problems__background-img-mobile {
     display: block;
-    margin-top: 188px;
+    margin-top: 165px;
   }
   .problems__container .problems__background-color {
     height: 2322px;
+    left: -4969px;
   }
 
   .problems__title {
@@ -506,8 +507,8 @@
     height: 379px;
   }
   .problems__body-middle .problems__my-invest-art img {
-    margin-top: -55px;
-    margin-left: -72px;
+    margin-top: -70px;
+    margin-left: -65px;
   }
 
   .problems__body-bot .problems__text-block {
@@ -591,7 +592,7 @@
     height: 554px;
   }
   .problems__body-bot .problems__bashaev-small img {
-    margin-top: -283px;
+    margin-top: -310px;
     margin-left: -463px;
   }
 
