@@ -43,6 +43,10 @@
     background-color: transparent;
 }
 
+.break-desktop {
+    display: none;
+}
+
 .break-mobile {
     display: inline;
 }
@@ -90,6 +94,7 @@
 
         .navigation {
             max-width: 265px;
+            font-size: 12px;
     
             .navigation__list {
                 column-gap: 12px;
@@ -128,6 +133,7 @@
     .price-tag {
 
         .price-tag__background {
+            background-image: url(../images/png/background_price-tag.png);
             top: 0;
             background-position: -145px;
             background-position-y: -10px;
@@ -289,7 +295,7 @@
 
     .idea__body-middle {
         max-width: 201.5px;
-        font-size: $font-size-large;
+        font-size: $font-size-large-tablet;
         margin-bottom: 44px;
         
         .idea__wrap-text {
@@ -386,7 +392,6 @@
             .idea__text-middle-background-desktop2,
             .idea__text-middle-background-desktop3,
             .idea__text-middle-background-desktop4,
-            .idea__text-middle-background-desktop5,
             .idea__text-middle-background-tablet3,
             .idea__text-middle-background-tablet4,
             .idea__text-middle-background-tablet5 {
@@ -396,7 +401,7 @@
     }
 
     .idea__body-bot {
-        font-size: $font-size-large;
+        font-size: $font-size-large-tablet;
         flex-direction: column;
     
         .idea__text-block {
@@ -460,6 +465,7 @@
 
         .problems__background-img-mobile {
             display: block;
+            margin-top: 188px;
         }
 
         .problems__background-color {
@@ -481,7 +487,7 @@
     
     .problems__body-top {
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 0;
     
         .problems__image-block {
             order: 1;
@@ -511,22 +517,28 @@
         }
     
         .problems__text-block {
-            max-width: 320px;
+            min-width: 276px;
         }
     
         .problems__text-body {
             margin-top: -0;
-            padding: 35px 57px 15px 7px;
-            gap: 0;
+            padding: 60px 57px 100px 6px;
+            gap: 14px;
     
             background-image: url(../images/png/problems-background-mobile.png);
             background-repeat:  no-repeat;
-            background-position: 0 5px;
+            background-position: 0 -15px;
+            background-size: auto 785px;
         }
     
         .problems__text-top {
             max-width: 212px;
             min-height: 177px;
+            font-size: $font-size-small;
+        }
+
+        .problems__text-top_height_less {
+            min-height: 134px;
         }
     }
 
@@ -535,7 +547,7 @@
     
         .problems__text-middle {
             max-width: 200px;
-            font-size: $font-size-large;
+            font-size: $font-size-large-tablet;
         }
     
         .problems__image-block {
@@ -567,7 +579,7 @@
     .problems__body-bot {
     
         .problems__text-block {
-            font-size: $font-size-large;
+            font-size: $font-size-large-tablet;
             max-width: 200px;
             display: flex;
             flex-direction: column;
@@ -763,7 +775,7 @@
             row-gap: 8px;
             padding-top: 0;
             max-width: 200px;
-            font-size: $font-size-large;
+            font-size: $font-size-large-tablet;
 
             .exit__text-bot {
                 display: none;
@@ -782,7 +794,7 @@
 
         .exit__text-block {
             max-width: 185px;
-            font-size: $font-size-large;
+            font-size: $font-size-large-tablet;
         }
     
         .exit__image-block {
@@ -881,8 +893,14 @@
                 font-size: 16px;
 
                 .footer__text-background {
+                    display: none;
+                }
+
+                .footer__text-background-tablet {
+                    display: block;
                     max-width: 200px;
-                    top: -5px;
+                    position: absolute;
+                    top: 91px;
                     left: -5px;
                 }
             }
@@ -965,12 +983,13 @@
         justify-content: space-around;
     
         .titers__text {
-            max-width: 265px;
+            max-width: 333px;
             font-size: 12px;
             padding: 117px 0 88px 0;
         }
     
         .titers__social-network {
+            padding: 7px;
             gap: 15px;
         }
 
