@@ -669,6 +669,7 @@ html {
     display: flex;
 
     .problems__text-block {
+        padding-top: 9px;
         max-width: 595px;
         font-family: "Albina";
         font-size: $font-size-huge;

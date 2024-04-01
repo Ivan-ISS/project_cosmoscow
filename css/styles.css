@@ -633,6 +633,7 @@ html {
   display: flex;
 }
 .problems__body-bot .problems__text-block {
+  padding-top: 9px;
   max-width: 595px;
   font-family: "Albina";
   font-size: 24px;
