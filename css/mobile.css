@@ -466,12 +466,12 @@
   }
   .problems__body-top .problems__text-body {
     margin-top: -0;
-    padding: 60px 57px 56px 6px;
+    padding: 60px 57px 56px 30px;
     gap: 36px;
     background-image: url(../images/png/problems-background-mobile.png);
     background-repeat: no-repeat;
     background-position: 0 -15px;
-    background-size: auto 785px;
+    background-size: auto 800px;
   }
   .problems__body-top .problems__text-top {
     max-width: 212px;
