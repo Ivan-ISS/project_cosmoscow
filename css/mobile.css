@@ -414,7 +414,6 @@
   }
   .problems__container .problems__background-img-mobile {
     display: block;
-    margin-top: 165px;
   }
   .problems__container .problems__background-color {
     height: 2322px;
@@ -484,7 +483,7 @@
   }
 
   .problems__body-middle {
-    margin-bottom: 110px;
+    margin-bottom: 154px;
   }
   .problems__body-middle .problems__text-middle {
     max-width: 200px;
