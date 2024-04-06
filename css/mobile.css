@@ -466,8 +466,8 @@
   }
   .problems__body-top .problems__text-body {
     margin-top: -0;
-    padding: 60px 57px 100px 6px;
-    gap: 14px;
+    padding: 60px 57px 56px 6px;
+    gap: 36px;
     background-image: url(../images/png/problems-background-mobile.png);
     background-repeat: no-repeat;
     background-position: 0 -15px;
@@ -583,7 +583,7 @@
     height: 554px;
   }
   .problems__body-bot .problems__btn {
-    top: -150px;
+    top: -200px;
     right: 170px;
   }
   .problems__body-bot .problems__bashaev-small {
@@ -591,8 +591,12 @@
     height: 554px;
   }
   .problems__body-bot .problems__bashaev-small img {
-    margin-top: -300px;
-    margin-left: -464px;
+    margin-top: -298px;
+    margin-left: -466px;
+  }
+  .problems__body-bot .problems__signature {
+    top: -135px;
+    left: -140px;
   }
 
   /* exit--------------------------------------------------------------------------------------- */

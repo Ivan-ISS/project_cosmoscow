@@ -679,6 +679,11 @@ html {
   margin-top: -400px;
   margin-left: -935px;
 }
+.problems__body-bot .problems__signature {
+  position: absolute;
+  top: -305px;
+  left: -595px;
+}
 
 /* exit--------------------------------------------------------------------------------------- */
 .exit__body-top {
